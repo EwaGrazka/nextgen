@@ -1,10 +1,10 @@
 {
     "commons": {
         "links": {
-            "products": "Products",
+            "products": "PRODUCTS",
             "faq": "FAQ",
-            "contact": "Contact",
-            "privacy": "Privacy"
+            "contact": "CONTACT",
+            "privacy": "PRIVACY"
         },
         "main-page": "home page",
         "farms": "farms",

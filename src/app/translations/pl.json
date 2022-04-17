@@ -1,9 +1,9 @@
 {
     "commons": {
         "links": {
-            "products": "Produkty",
+            "products": "PRODUKTY",
             "faq": "FAQ",
-            "contact": "Kontakt",
+            "contact": "KONTAKT",
             "privacy": "Polityka prywatności"
         },
         "main-page": "home page",
