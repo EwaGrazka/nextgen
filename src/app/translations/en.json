@@ -1,0 +1,171 @@
+{
+    "commons": {
+        "links": {
+            "products": "Products",
+            "faq": "FAQ",
+            "contact": "Contact",
+            "privacy": "Privacy"
+        },
+        "main-page": "home page",
+        "farms": "farms",
+        "roofs": "rooftop photovoltaic",
+        "blog": "blog",
+        "contact": "contact",
+        "name": "name",
+        "email": "email",
+        "demo-roofs": "rooftops demo",
+        "demo-farms": "farms demo",
+        "send": "send",
+        "withSunmetric": "with sunmetric",
+        "backToHomePage": "back to homepage",
+        "backToList": "back to posts list",
+        "read-more": "read more",
+        "cookies-use": "We use cookies !",
+        "cookies-agreement": "I agree",
+        "footer": {
+            "service-map": "service map",
+            "more-about-us": "more about us",
+            "rules": "Rules",
+            "privacy": "Privacy Policy",
+            "copyright": "Copyright ©2021 sunmetric. All rights reserved.",
+            "poland": "Poland"
+        }
+    },
+    "homepage": {
+        "titles": {
+            "work-with-sunmetric": "working with sunmetric:",
+            "arrange-demo": "schedule a demo",
+            "more-about-pv": "more about photovoltaic",
+            "partners": "our partners",
+            "sunmetric-description": "sunmetric is a tool for automated analysis of the photovoltaic potential of land and roofs, used by investors, companies involved in the construction and sale of micro-installations and photovoltaic farms"
+        },
+       "advantage-1a": "you will make an in-depth analysis of the area where you plan to build a solar farm",
+        "advantage-1b": "Thanks to the technology we have developed, measurements and analyzes are performed fully automatically and take just a few minutes. Sunmetric examines the selected property in terms of geological, administrative and meteorological parameters, and artificial intelligence supports the generation of valuable conclusions based on the analyzed data.",
+        "advantage-2a": "you will check if the selected roof is a good place to install photovoltaic modules",
+        "advantage-2b": " By taking into account a number of meteorological parameters, an automated surface measurement process, taking into account obstacles and shading, sunmetric is able to provide valuable information supporting the decision-making process about investing in a photovoltaic micro installation.",
+   
+        "read-blog": "read our blog"
+    },
+    "farms": {
+        "titles": {
+            "sunmetric-help": "how can sunmetric help you?",
+            "pv-perfect-place": "how to choose a place for",
+            "pv-perfect-place-1": " a photovoltaic farm?",
+            "customers-about-us": "customers about us",
+            "arrange-demo-farms": "schedule a demo"
+        },
+        "sections": {
+            "help-1": "check if the analysed plot is appropriate for the PV power plant",
+            "help-2": "find the right location for your photovoltaic farm investment",
+            "help-3": "increase the price of your property in the process of lease for a solar power plant",
+            "goal-title": "automated plot analysis for the photovoltaic farm purpose",
+            "goal": "our goal is to provide valuable data and analysis for the plots intended for photovoltaic farms projects",
+            "raport-example": "See an exemplary report"
+        },
+        "about-perfect-place": {
+            "about-t-1": "pre-audit the property",
+            "about-t-2": "easy to use",
+            "about-t-3": "reduce costs",
+            "about-t-4": "save your time",
+            "about-p-1": "Check quickly whether the analyzed land is suitable for a solar farm or not. Sunmetric increases the probability of investment success by simulating the operation of a power plant and taking into account individual geological, administrative and meteorological conditions.",
+            "about-p-2": "Sunmetric does not require installation, integration, or other time-consuming and confusing processes. All you have to do is show us the registration numbers of the properties you want to analyze, and in return you will receive links with interactive reports on the selected properties.",
+            "about-p-3": "Sunmetric aggregates and processes a huge amount of data, generating an output report that contains information that normally requires expert knowledge to obtain. Thanks to our technology, the simulation of insolation, shading, arrangement of photovoltaic modules or investment profitability are calculated automatically and much faster, while saving the funds necessary to prepare a photovoltaic project.",
+            "about-p-4": "Sunmetric allows you to analyze countless plots in a relatively short time. The time needed to generate a report for the selected plot is counted in minutes, and the data provided by the system is sufficient to make a decision on further work on the project of photovoltaic farms. The analysis in sunmetric is fully automated."
+        }
+    },
+    "roofs": {
+        "titles": {
+            "sunmetric-help": "how can sunmetric help you?",
+            "pv-perfect-place": "what roof elements does sunmetric measure?",
+            "customers-about-us": "customers about us",
+            "arrange-demo-roofs": "schedule a demo"
+        },
+        "sections": {
+            "help-1": "estimate a photovoltaic potential of the buildings within the area of a given city/county",
+            "help-2": "locate buildings that are ideal for photovoltaic micro-installations faster",
+            "help-3": "estimate how many photovoltaic modules are necessary to cover the analyzed roof",
+            "goal-title": "remote rooftop measurement",
+            "goal": "our goal is to provide valuable data for the roofs considered for photovoltaic infrastructure",
+            "raport-example": "See an exemplary report",
+            "read-story": "read one of our customers testimonial:",
+            "story-1": "I live in a single-family house at the outskirts of a middle-sized city at the South of Poland. Within a week I receive an average of one phonecall and two e-mails regarding the installation of photovoltaic solutions on my rooftop. They are all irritating with their predictability, intrusiveness and lack of any personalization.",
+            "story-2": "Not receiving the offers would be much better, as they are not effective and result in myself being less interesting in photovoltaic investment, even though I personally think it is a necessary solution. When I saw an example report and a business offer that sunmetric can provide, I though that if I was given that kind of information, I would take a closer look and it would make a positive impact on my decision.",
+            "story-3": " How come? When making a decision I need information - and such information is provided by the sunmetric report. That means that from the very first offer I already know enough to make an initial decision. Therefore I want to go on with talking about the details."
+        },
+        "about-perfect-place": {
+            "about-t-1": "roof area and edges",
+            "about-t-2": "insolation and shade",
+            "about-t-3": "potential obstacles",
+            "about-t-4": "photovoltaic potential",
+            "about-p-1": "We take into account each part of the roof in our calculations, expressing the result in m2, in addition, we count exactly how many meters in length each edge of the roof has",
+            "about-p-2": "When analyzing the roof surface, we take into account the insolation of each of the roof parts, in addition, we check the shadows cast by neighboring trees and buildings, all in order to choose the most optimal place for a photovoltaic micro installation.",
+            "about-p-3": "Sunmetric checks what elements of the roof can contribute to the reduction of the functioning of the photovoltaic installation. Our solution can easily detect chimneys casting shadows or roof windows that discredit photovoltaic modules.",
+            "about-p-4": "We simulate the energy yield potential of micro-installations, taking into account all possible parameters and factors that may affect the functioning of photovoltaics on the roof."
+        }
+    },
+    "blog": {
+        "new-post": ""
+    },
+    "contact": {
+        "contact-us": "contact us",
+        "our-team": "our team",
+        "team-members": {
+            "mk": " Michał is a complete professional. His ambition drives him when completing any given task and as a project mentor he motivates his colleagues with a great charisma. He also takes care of cocreating the AI algorythms which surprise with their solutions and allow for the highly efficient work. With his skills and personal traits he brings a lot of quality, everyday work at his side is a great pleasure.",
+            "at": "Andrzej is the right person at the right place. In sunmetric he makes a bridge between the business and the development team. Always cheerful and helpful, each day providing us with new tasks within our jira system :) Working with him is a pure pleasure.",
+            "macz": "Skillful and passionate Frontend Developer, with a constantly developing skillset, fully devoted to programming duties. Specialist in the field of creative problem solving, regarding the design and usability of our application. Maciek is constantly learning new technologies. He began his Frontend journey with JavaSript, to become a React specialist. He is an active team member with a head full of ideas, who brings all our ideas to life.",
+            "pr": "Paulina is the person responsible for managing the functioning of the office. She is not afraid of controlling the documentation, even the most extensive one, or contact with clients, even the most demanding ones. It is perfectly organized, and its directness and pragmatic attitude make it easy to solve the problems encountered. Full of empathy, warmth, openness and positive energy, it has a great influence on the fact that work is something more than just a place to come, the \"heart\" of our office.",
+            "mz": "Product Owner, sales director, advisor, coach, trainer, marketing and public relations specialist, scrum master, agile coach - Mateusz is a man of many titles and talents. There probably isn't a role he can't handle. It is true that he has not tried being a Python Developer yet, but who knows what his professional future will bring :) He can combine his extensive business knowledge with knowledge of psychology, promoting non-violent communication, the essence of building trust in the team and the positive impact of the development of employees' creativity on the company's results. A perfectionist who can always count on both factual feedback and a kind word. ",
+            "jc": "Jacob loves challenges. Interesting, difficult and addictive problems arouse his great enthusiasm. On the basis of fullstack development, he achieved everything that he considered worth achieving - then, in search of new experiences and development opportunities, he decided to become a successful DevOps. His love of programming is so obvious it's contagious. Jacob is able to take care of other team members, you can always count on his help and a kind, patient explanation of each problematic issue.",
+            "tc": "Tomek is the tech lead of our team - a senior software engineer with vast knowledge and skills that he can effectively use. He started his adventure with programming while still in high school. Currently, he is creating and optimizing backend magic, which he transforms into functionalities available to users. Always ready to talk about important topics, he can ask insightful, unconventional questions, allowing for the discovery of a different point of view. Full of hospitality, a lover of coffee, board games, table football and intellectual challenges posed by playing chess.",
+            "ls": "A person more helpful than Łukasz could be looked for with a candle and still could not be found. Always ready to share a smile, a joke, take time for a conversation or even a brief wish for a \"good day\". At Sunmetric, he deals with testing, meticulously checking the functioning of the application. Effectively catches errors, and also persistently strives to discover the causes of their occurrence. After hours, he systematically develops as a frontend developer.",
+            "ak": "During his second year at university he created his first startup that became a fast-developing softwarehouse. His passion and ambitions were the factors that made the sunmetric as it is today. In the entire project he performs numerous operative functions. His contribution to the project allows the rest of the team to focus on their tasks without additional worries. He always thinks two steps ahead and already has 3 solution to every potential issue.",
+            "ms": "Although your career started out as a front end developer, decided to embark on a challenging journey, the culmination of which was the transformation into DevOps. Currently, he is successfully fulfilling this role. He fulfills his tasks with great commitment and usually at unconventional hours: slightly_smiling_face: He has a head full of ideas and a unique sense of saving. He is not afraid to take the initiative as long as he is convinced that his action will have a positive impact on the project.",
+            "eg": "",
+            "pz": "Piotr's professional experience is very rich and varied, and his versatility and skills constantly surprise. In his life, he proved himself in various roles, each time, managing to meet the most daring expectations of customers. Currently, he deals with support, solving even seemingly unsolvable problems. Sociable and direct, he can express what is difficult freely and unambiguously. His mind is an inexhaustible source of humor. Working with Piotrek is a pleasure comparable only to spending time with him outside of work :)",
+            "kk": "Kinga's experience in working with clients dates back several years, but her path related to sales and marketing began recently. She entered the project lightly, gracefully and effortlessly, carrying out her tasks with great accuracy and meticulousness from the very first days. She is a factual, concrete and at the same time extremely nice person, full of peace and warmth.",
+            "mb": "Thanks to his extensive knowledge and experience, Michał is one of the two people who create the essence, \"heart\" of our application. He is inventive, quickly sees potential problems, while showing great commitment and openness in looking for ways to solve them. Although he is focused on the effective implementation of tasks at work, he is friendly and very sociable at the same time"
+        
+        }
+        
+    },
+    "rules": {
+        "entry-msg": "This Privacy Policy has been prepared to demonstrate that personal data is processed and secured in accordance with legal requirements regarding the principles of data processing and security, including Regulation of the European Parliament and of the Council (EU) 2016 / of 27 April 2016 on protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 55/46 / EC (hereinafter GDPR).",
+        "1": "1. Information on the processing of personal data",
+        "1a": "Pursuant to Art. 13 sec. 1 and sec. 2 GDPR, we would like to inform you that:",
+        "1.1": "1.1. The administrator of your personal data is AMS AI Sp. z o.o., 81-876 Sopot, ul. Leśna 1, e-mail address: contact@sunmetric.pl",
+        "1.2": "1.2. The inspector of your personal data is available at the following e-mail address: contact@sunmetric.pl",
+        "1.3": "1.3. The legal basis for the processing of your data is:",
+        "1.3.1": "1.3.1. consent to the processing of personal data for marketing purposes (pursuant to Article 6 (1) (a) of the GDPR),",
+        "1.3.2": "1.3.2. fulfillment of the legal obligation incumbent on the administrator (pursuant to Article 6 (c) of the GDPR).",
+        "1.4": "1.4. Personal data may be transferred to: entities processing personal data at the request of the Administrator, other personal data administrators, if they have a legitimate interest. Other entities processing data at the request of the Administrator are in particular: IT service providers.",
+        "1.5": "1.5. You have the right to: ",
+        "1.5.1": "1.5.1. access to the content of your data, ",
+        "1.5.2": "1.5.1. rectifying them,",
+        "1.5.3": "1.5.1. deletion,",
+        "1.5.4": "1.5.1. processing restrictions,",
+        "1.5.5": "1.5.1. the right to data portability,",
+        "1.5.6": "1.5.1. the right to withdraw consent at any time without affecting the lawfulness of processing.",
+        "1.6": "1.6. In order to exercise your rights, you must submit an appropriate request to the Administrator to the address provided in point 1.",
+        "1.7": "1.7. You have the right to lodge a complaint with the President of the Personal Data Protection Office if you believe that the processing of personal data violates the provisions of the General Data Protection Regulation of 27 April 2016 or the Act.",
+        "1.8": "1.8. Your personal data may be processed in an automated manner, including data profiling.",
+        "2": "Contact form",
+        "2.1": "2.1. On the sunmetric.pl website, you can get in touch via the contact form on the Contact Page.",
+        "2.2": "2.2. In order to contact AMS AI, it is necessary to provide personal data that will be used by the Administrator solely for the purpose of contacting the client or a potential client.",
+        "2.3": "2.3. Before providing data, read the Privacy Policy and consent to the processing of the personal data provided.",
+        "3": "3. Information Safety",
+        "3.1": "3.1. The administrator uses technical and organizational measures to protect the processed personal data specified in the GDPR, ensuring increased protection and security of personal data processing, appropriate to the threats and categories of data protected, in particular, it protects technically and organizationally data against disclosure to unauthorized persons or removal by an unauthorized person, processing in violation of the law and alteration, loss, damage or destruction. The collection of collected personal data is stored on a secured server and the data is also protected through the Administrator's internal procedures in the field of personal data processing and information security policy.",
+        "4": "4. Cookies",
+        "4.1": "4.1. Cookies - these are IT data, in particular text files, saved by the Administrator's servers on the user's end device (e.g. computer, smartphone, etc.).",
+        "4.1.1:": "4.1.1. Servers can read cookies each time you connect to the end device.",
+        "4.1.2": "4.1.2. In their default settings, web browsers accept the creation of cookies on the user's device.",
+        "4.1.3": "4.1.3. The website visitor may at any time delete cookies placed on his end device using the options available in his web browser or block the possibility of their creation.",
+        "4.1.4": "4.1.4. Blocking the possibility of creating cookies may adversely affect the operation of the website.",
+        "4.2": "4.2. Purposes of creating cookies:",
+        "4.2.1": "4.2.1. creating statistics and analyzing them,",
+        "4.2.2": "4.2.2. using contact forms,",
+        "4.2.3": "4.2.3. the files do not contain any personal information. Name, surname, e-mail address or IP address are not stored with them. They are not used to create an individual activity profile of the website visitor.",
+        "4.3": "4.3. Types of cookies created and used:",
+        "4.3.1": "4.3.1. statistical cookies - used to count statistics on the website.",
+        "4.3.2": "4.3.2. required cookies - these are files necessary for efficient navigation through the Website and the use of all Website functions."   
+    }
+}
