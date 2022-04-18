@@ -1,171 +1,98 @@
 {
     "commons": {
         "links": {
+            "home": "HOME",
             "products": "PRODUCTS",
             "faq": "FAQ",
             "contact": "CONTACT",
-            "privacy": "PRIVACY"
-        },
-        "main-page": "home page",
-        "farms": "farms",
-        "roofs": "rooftop photovoltaic",
-        "blog": "blog",
-        "contact": "contact",
-        "name": "name",
-        "email": "email",
-        "demo-roofs": "rooftops demo",
-        "demo-farms": "farms demo",
-        "send": "send",
-        "withSunmetric": "with sunmetric",
-        "backToHomePage": "back to homepage",
-        "backToList": "back to posts list",
-        "read-more": "read more",
-        "cookies-use": "We use cookies !",
-        "cookies-agreement": "I agree",
-        "footer": {
-            "service-map": "service map",
-            "more-about-us": "more about us",
-            "rules": "Rules",
-            "privacy": "Privacy Policy",
-            "copyright": "Copyright ©2021 sunmetric. All rights reserved.",
-            "poland": "Poland"
+            "privacy": "Privacy"
         }
     },
-    "homepage": {
-        "titles": {
-            "work-with-sunmetric": "working with sunmetric:",
-            "arrange-demo": "schedule a demo",
-            "more-about-pv": "more about photovoltaic",
-            "partners": "our partners",
-            "sunmetric-description": "sunmetric is a tool for automated analysis of the photovoltaic potential of land and roofs, used by investors, companies involved in the construction and sale of micro-installations and photovoltaic farms"
+    "home": {
+        "header": "Discover what is invisible",
+        "header-a": "Nextgen Night Vision Systems",
+        "about": "The Nextgen Night Vision Systems brand was created out of a combination of passion and expertise in the field of night vision equipment. As the market solutions did not meet our needs, we decided to create our own product line, based on our experience and the most modern market trends. In 2018, we received a license from the Ministry of the Interior and Administration to manufacture and trade in technology for military or police purposes. From then on, we've been continuously working on cutting-edge products to give you a tactical advantage in all conditions. What distinguishes us is the fact that we actively use the equipment we sell in the most demanding conditions. We always provide advice and we are happy to exchange experiences.",
+        "quote": {
+            "a":"Our challenge is ",
+            "b":"continuous development",
+            "c":" state-of-the-art products and ",
+            "d":"exceeding expectations ",
+            "e":"clients"
         },
-       "advantage-1a": "you will make an in-depth analysis of the area where you plan to build a solar farm",
-        "advantage-1b": "Thanks to the technology we have developed, measurements and analyzes are performed fully automatically and take just a few minutes. Sunmetric examines the selected property in terms of geological, administrative and meteorological parameters, and artificial intelligence supports the generation of valuable conclusions based on the analyzed data.",
-        "advantage-2a": "you will check if the selected roof is a good place to install photovoltaic modules",
-        "advantage-2b": " By taking into account a number of meteorological parameters, an automated surface measurement process, taking into account obstacles and shading, sunmetric is able to provide valuable information supporting the decision-making process about investing in a photovoltaic micro installation.",
-   
-        "read-blog": "read our blog"
-    },
-    "farms": {
-        "titles": {
-            "sunmetric-help": "how can sunmetric help you?",
-            "pv-perfect-place": "how to choose a place for",
-            "pv-perfect-place-1": " a photovoltaic farm?",
-            "customers-about-us": "customers about us",
-            "arrange-demo-farms": "schedule a demo"
+        "about-1": "We focus both on the professional market and on equipment intended for enthusiasts. We try to prepare products specially designed for these recipients. We perfectly understand that the services need the best technologies available in the world, combined with maximum ease of use, and that hobbyists are looking for high-quality products at competitive prices. Thanks to our experience in rapid prototyping methods and unit production, we are able to provide mira-tailored solutions that we hope will meet all the needs of our customers.",
+        "cta-1": "We hope you will find the perfect product for you. If not, we will be happy to prepare one especially for you.",
+        "cta-2": "Join us today (at night), understand our passion and see the world in green.",
+        "cta-button-1": "Contact us",
+        "cta-button-2": "See our products",
+        "service": {
+            "text-1": "We provide a full service of night vision devices of many types, including repairs, construction modifications, periodic inspections and cleaning of the equipment.",
+            "text-1a": "Supported night vision transducers:",
+            "text-2": "We sell a wide selection of night vision transducers, in many different formats, which can be optionally equipped with autogating functions and green or white phosphorus.",
+            "list-a": "Gen 2+",
+            "list-b": "Gen 3",
+            "list-c": "4G"
         },
-        "sections": {
-            "help-1": "check if the analysed plot is appropriate for the PV power plant",
-            "help-2": "find the right location for your photovoltaic farm investment",
-            "help-3": "increase the price of your property in the process of lease for a solar power plant",
-            "goal-title": "automated plot analysis for the photovoltaic farm purpose",
-            "goal": "our goal is to provide valuable data and analysis for the plots intended for photovoltaic farms projects",
-            "raport-example": "See an exemplary report"
-        },
-        "about-perfect-place": {
-            "about-t-1": "pre-audit the property",
-            "about-t-2": "easy to use",
-            "about-t-3": "reduce costs",
-            "about-t-4": "save your time",
-            "about-p-1": "Check quickly whether the analyzed land is suitable for a solar farm or not. Sunmetric increases the probability of investment success by simulating the operation of a power plant and taking into account individual geological, administrative and meteorological conditions.",
-            "about-p-2": "Sunmetric does not require installation, integration, or other time-consuming and confusing processes. All you have to do is show us the registration numbers of the properties you want to analyze, and in return you will receive links with interactive reports on the selected properties.",
-            "about-p-3": "Sunmetric aggregates and processes a huge amount of data, generating an output report that contains information that normally requires expert knowledge to obtain. Thanks to our technology, the simulation of insolation, shading, arrangement of photovoltaic modules or investment profitability are calculated automatically and much faster, while saving the funds necessary to prepare a photovoltaic project.",
-            "about-p-4": "Sunmetric allows you to analyze countless plots in a relatively short time. The time needed to generate a report for the selected plot is counted in minutes, and the data provided by the system is sufficient to make a decision on further work on the project of photovoltaic farms. The analysis in sunmetric is fully automated."
+        "thermovision": "Thermovision",
+        "thermovisionText": "The development of digital image processing techniques and methods of heat detection resulted in a leap improvement in thermal imaging devices. Initially limited by the need to use complex cooling systems and efficient power supply systems, today - already in miniature versions - it is used in many, often distant fields. Usually, a simple assessment of its declared technical parameters is not enough for the proper selection of a device. Often devices made of the same matrices (by different manufacturers) give a completely different optical impression. The quality of the image obtained results not only from the simple parameters and quality of the components used, which can be checked in the DTR (lens, matrix, display), but also from non-obvious factors, such as the software used. Currently available thermal imaging devices are indispensable for quick target detection. With the development of technology, their miniaturization takes place while maintaining the appropriate matrix resolution, its sensitivity and power demand. We encourage you to familiarize yourself in the field with the image quality of a pre-selected device from our store. We believe that the work currently underway to combine with night vision and digital technology will allow us to offer even better solutions in the near future.",
+        "nightvision": "Night vision",
+        "nightvisionText": "The desire and need to see after dark has always inspired people to look for new solutions. Initially used strong visible light sources turned out to be insufficient in applications requiring hidden operation. During WWII, the first devices enabling night vision after the use of strong emitters of light invisible to the human eye were put into use. Initially large, uncomfortable (e.g. backpack) and requiring a large amount of electricity (strong light bulbs with IR filters), devices have evolved to achieve a compact (350 gram) size, with a working time of over 40 hours on one battery. Technical progress in night vision technology is enormous and concerns not only the light amplifiers themselves, but also their power electronics, available bright optics, light construction materials as well as ergonomics and precision of workmanship. The complexity of the product means that most people have a hard time assessing the parameters of the equipment and choosing the right device for their application. NextGen is created by passionate people who will be happy to understand your needs, guide you through the entire process of selecting the device and propose an optimal price solution. We will explain the differences in technical parameters and honestly tell you about the advantages and limitations of them. There are no universal solutions that will suit everyone, therefore, taking care of our clients' informed decisions, we encourage you to perform comparative tests of selected solutions. We understand your passions and needs. Our devices are successfully used by hunters, military personnel, policemen, security guards, sport shooters, astrophotographers and airsoft enthusiasts.",
+        "advantages": {
+            "title1": "Professional help",
+            "desc1": "Experienced employees offering advice.",
+            "title2": "Professional equipment",
+            "desc2": "Only recognized and proven solutions.",
+            "title3": "Full legality",
+            "desc3": "Legality guarantee.",
+            "title4": "Quick delivery",
+            "desc4": "We send the goods by courier."
         }
     },
-    "roofs": {
-        "titles": {
-            "sunmetric-help": "how can sunmetric help you?",
-            "pv-perfect-place": "what roof elements does sunmetric measure?",
-            "customers-about-us": "customers about us",
-            "arrange-demo-roofs": "schedule a demo"
-        },
-        "sections": {
-            "help-1": "estimate a photovoltaic potential of the buildings within the area of a given city/county",
-            "help-2": "locate buildings that are ideal for photovoltaic micro-installations faster",
-            "help-3": "estimate how many photovoltaic modules are necessary to cover the analyzed roof",
-            "goal-title": "remote rooftop measurement",
-            "goal": "our goal is to provide valuable data for the roofs considered for photovoltaic infrastructure",
-            "raport-example": "See an exemplary report",
-            "read-story": "read one of our customers testimonial:",
-            "story-1": "I live in a single-family house at the outskirts of a middle-sized city at the South of Poland. Within a week I receive an average of one phonecall and two e-mails regarding the installation of photovoltaic solutions on my rooftop. They are all irritating with their predictability, intrusiveness and lack of any personalization.",
-            "story-2": "Not receiving the offers would be much better, as they are not effective and result in myself being less interesting in photovoltaic investment, even though I personally think it is a necessary solution. When I saw an example report and a business offer that sunmetric can provide, I though that if I was given that kind of information, I would take a closer look and it would make a positive impact on my decision.",
-            "story-3": " How come? When making a decision I need information - and such information is provided by the sunmetric report. That means that from the very first offer I already know enough to make an initial decision. Therefore I want to go on with talking about the details."
-        },
-        "about-perfect-place": {
-            "about-t-1": "roof area and edges",
-            "about-t-2": "insolation and shade",
-            "about-t-3": "potential obstacles",
-            "about-t-4": "photovoltaic potential",
-            "about-p-1": "We take into account each part of the roof in our calculations, expressing the result in m2, in addition, we count exactly how many meters in length each edge of the roof has",
-            "about-p-2": "When analyzing the roof surface, we take into account the insolation of each of the roof parts, in addition, we check the shadows cast by neighboring trees and buildings, all in order to choose the most optimal place for a photovoltaic micro installation.",
-            "about-p-3": "Sunmetric checks what elements of the roof can contribute to the reduction of the functioning of the photovoltaic installation. Our solution can easily detect chimneys casting shadows or roof windows that discredit photovoltaic modules.",
-            "about-p-4": "We simulate the energy yield potential of micro-installations, taking into account all possible parameters and factors that may affect the functioning of photovoltaics on the roof."
-        }
-    },
-    "blog": {
-        "new-post": ""
-    },
+
     "contact": {
-        "contact-us": "contact us",
-        "our-team": "our team",
-        "team-members": {
-            "mk": " Michał is a complete professional. His ambition drives him when completing any given task and as a project mentor he motivates his colleagues with a great charisma. He also takes care of cocreating the AI algorythms which surprise with their solutions and allow for the highly efficient work. With his skills and personal traits he brings a lot of quality, everyday work at his side is a great pleasure.",
-            "at": "Andrzej is the right person at the right place. In sunmetric he makes a bridge between the business and the development team. Always cheerful and helpful, each day providing us with new tasks within our jira system :) Working with him is a pure pleasure.",
-            "macz": "Skillful and passionate Frontend Developer, with a constantly developing skillset, fully devoted to programming duties. Specialist in the field of creative problem solving, regarding the design and usability of our application. Maciek is constantly learning new technologies. He began his Frontend journey with JavaSript, to become a React specialist. He is an active team member with a head full of ideas, who brings all our ideas to life.",
-            "pr": "Paulina is the person responsible for managing the functioning of the office. She is not afraid of controlling the documentation, even the most extensive one, or contact with clients, even the most demanding ones. It is perfectly organized, and its directness and pragmatic attitude make it easy to solve the problems encountered. Full of empathy, warmth, openness and positive energy, it has a great influence on the fact that work is something more than just a place to come, the \"heart\" of our office.",
-            "mz": "Product Owner, sales director, advisor, coach, trainer, marketing and public relations specialist, scrum master, agile coach - Mateusz is a man of many titles and talents. There probably isn't a role he can't handle. It is true that he has not tried being a Python Developer yet, but who knows what his professional future will bring :) He can combine his extensive business knowledge with knowledge of psychology, promoting non-violent communication, the essence of building trust in the team and the positive impact of the development of employees' creativity on the company's results. A perfectionist who can always count on both factual feedback and a kind word. ",
-            "jc": "Jacob loves challenges. Interesting, difficult and addictive problems arouse his great enthusiasm. On the basis of fullstack development, he achieved everything that he considered worth achieving - then, in search of new experiences and development opportunities, he decided to become a successful DevOps. His love of programming is so obvious it's contagious. Jacob is able to take care of other team members, you can always count on his help and a kind, patient explanation of each problematic issue.",
-            "tc": "Tomek is the tech lead of our team - a senior software engineer with vast knowledge and skills that he can effectively use. He started his adventure with programming while still in high school. Currently, he is creating and optimizing backend magic, which he transforms into functionalities available to users. Always ready to talk about important topics, he can ask insightful, unconventional questions, allowing for the discovery of a different point of view. Full of hospitality, a lover of coffee, board games, table football and intellectual challenges posed by playing chess.",
-            "ls": "A person more helpful than Łukasz could be looked for with a candle and still could not be found. Always ready to share a smile, a joke, take time for a conversation or even a brief wish for a \"good day\". At Sunmetric, he deals with testing, meticulously checking the functioning of the application. Effectively catches errors, and also persistently strives to discover the causes of their occurrence. After hours, he systematically develops as a frontend developer.",
-            "ak": "During his second year at university he created his first startup that became a fast-developing softwarehouse. His passion and ambitions were the factors that made the sunmetric as it is today. In the entire project he performs numerous operative functions. His contribution to the project allows the rest of the team to focus on their tasks without additional worries. He always thinks two steps ahead and already has 3 solution to every potential issue.",
-            "ms": "Although your career started out as a front end developer, decided to embark on a challenging journey, the culmination of which was the transformation into DevOps. Currently, he is successfully fulfilling this role. He fulfills his tasks with great commitment and usually at unconventional hours: slightly_smiling_face: He has a head full of ideas and a unique sense of saving. He is not afraid to take the initiative as long as he is convinced that his action will have a positive impact on the project.",
-            "eg": "",
-            "pz": "Piotr's professional experience is very rich and varied, and his versatility and skills constantly surprise. In his life, he proved himself in various roles, each time, managing to meet the most daring expectations of customers. Currently, he deals with support, solving even seemingly unsolvable problems. Sociable and direct, he can express what is difficult freely and unambiguously. His mind is an inexhaustible source of humor. Working with Piotrek is a pleasure comparable only to spending time with him outside of work :)",
-            "kk": "Kinga's experience in working with clients dates back several years, but her path related to sales and marketing began recently. She entered the project lightly, gracefully and effortlessly, carrying out her tasks with great accuracy and meticulousness from the very first days. She is a factual, concrete and at the same time extremely nice person, full of peace and warmth.",
-            "mb": "Thanks to his extensive knowledge and experience, Michał is one of the two people who create the essence, \"heart\" of our application. He is inventive, quickly sees potential problems, while showing great commitment and openness in looking for ways to solve them. Although he is focused on the effective implementation of tasks at work, he is friendly and very sociable at the same time"
-        
-        }
-        
+        "street": "Zaułek 1",
+        "city": "66-615 Łagów",
+        "phone": "+48 601 442 442",
+        "mswia": "MSWiA concession B-102/2018"
     },
-    "rules": {
-        "entry-msg": "This Privacy Policy has been prepared to demonstrate that personal data is processed and secured in accordance with legal requirements regarding the principles of data processing and security, including Regulation of the European Parliament and of the Council (EU) 2016 / of 27 April 2016 on protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 55/46 / EC (hereinafter GDPR).",
-        "1": "1. Information on the processing of personal data",
-        "1a": "Pursuant to Art. 13 sec. 1 and sec. 2 GDPR, we would like to inform you that:",
-        "1.1": "1.1. The administrator of your personal data is AMS AI Sp. z o.o., 81-876 Sopot, ul. Leśna 1, e-mail address: contact@sunmetric.pl",
-        "1.2": "1.2. The inspector of your personal data is available at the following e-mail address: contact@sunmetric.pl",
-        "1.3": "1.3. The legal basis for the processing of your data is:",
-        "1.3.1": "1.3.1. consent to the processing of personal data for marketing purposes (pursuant to Article 6 (1) (a) of the GDPR),",
-        "1.3.2": "1.3.2. fulfillment of the legal obligation incumbent on the administrator (pursuant to Article 6 (c) of the GDPR).",
-        "1.4": "1.4. Personal data may be transferred to: entities processing personal data at the request of the Administrator, other personal data administrators, if they have a legitimate interest. Other entities processing data at the request of the Administrator are in particular: IT service providers.",
-        "1.5": "1.5. You have the right to: ",
-        "1.5.1": "1.5.1. access to the content of your data, ",
-        "1.5.2": "1.5.1. rectifying them,",
-        "1.5.3": "1.5.1. deletion,",
-        "1.5.4": "1.5.1. processing restrictions,",
-        "1.5.5": "1.5.1. the right to data portability,",
-        "1.5.6": "1.5.1. the right to withdraw consent at any time without affecting the lawfulness of processing.",
-        "1.6": "1.6. In order to exercise your rights, you must submit an appropriate request to the Administrator to the address provided in point 1.",
-        "1.7": "1.7. You have the right to lodge a complaint with the President of the Personal Data Protection Office if you believe that the processing of personal data violates the provisions of the General Data Protection Regulation of 27 April 2016 or the Act.",
-        "1.8": "1.8. Your personal data may be processed in an automated manner, including data profiling.",
-        "2": "Contact form",
-        "2.1": "2.1. On the sunmetric.pl website, you can get in touch via the contact form on the Contact Page.",
-        "2.2": "2.2. In order to contact AMS AI, it is necessary to provide personal data that will be used by the Administrator solely for the purpose of contacting the client or a potential client.",
-        "2.3": "2.3. Before providing data, read the Privacy Policy and consent to the processing of the personal data provided.",
-        "3": "3. Information Safety",
-        "3.1": "3.1. The administrator uses technical and organizational measures to protect the processed personal data specified in the GDPR, ensuring increased protection and security of personal data processing, appropriate to the threats and categories of data protected, in particular, it protects technically and organizationally data against disclosure to unauthorized persons or removal by an unauthorized person, processing in violation of the law and alteration, loss, damage or destruction. The collection of collected personal data is stored on a secured server and the data is also protected through the Administrator's internal procedures in the field of personal data processing and information security policy.",
-        "4": "4. Cookies",
-        "4.1": "4.1. Cookies - these are IT data, in particular text files, saved by the Administrator's servers on the user's end device (e.g. computer, smartphone, etc.).",
-        "4.1.1:": "4.1.1. Servers can read cookies each time you connect to the end device.",
-        "4.1.2": "4.1.2. In their default settings, web browsers accept the creation of cookies on the user's device.",
-        "4.1.3": "4.1.3. The website visitor may at any time delete cookies placed on his end device using the options available in his web browser or block the possibility of their creation.",
-        "4.1.4": "4.1.4. Blocking the possibility of creating cookies may adversely affect the operation of the website.",
-        "4.2": "4.2. Purposes of creating cookies:",
-        "4.2.1": "4.2.1. creating statistics and analyzing them,",
-        "4.2.2": "4.2.2. using contact forms,",
-        "4.2.3": "4.2.3. the files do not contain any personal information. Name, surname, e-mail address or IP address are not stored with them. They are not used to create an individual activity profile of the website visitor.",
-        "4.3": "4.3. Types of cookies created and used:",
-        "4.3.1": "4.3.1. statistical cookies - used to count statistics on the website.",
-        "4.3.2": "4.3.2. required cookies - these are files necessary for efficient navigation through the Website and the use of all Website functions."   
+    "products": {
+        "exampleTitle": "Product name"
+    },
+    "footer": {
+        "rights": "© Nextgen 2022. All rights reserved. Made by"
+    },
+    "faq": {
+        "faq": "Frequently Asked Questions",
+        "faq-1": "What is manual gain control and what is it for?",
+        "faq-1a": "What are the types of phosphorus?",
+        "faq-2": "Is green or white phosphorus better?",
+        "faq-3": "Are 4G transducers Generation 2?",
+        "faq-4": "Do you export night vision devices abroad?",
+        "faq-5": "Do I need a permit for night vision?",
+        "faq-6": "What are the basic parameters of the night vision device?",
+        "answer-1": "As standard, the converters are equipped with a power supply with automatic gain control. The electronic system selects the brightness of the generated image optimally to the current conditions. Optionally, for selected models of equipment, transducers with automatic and manual gain control are available. With this function, you can manually reduce the brightness of the image to suit your preferences. Setting the manual gain control to the brightest position will cause the converter to automatically adjust the brightness.",
+        "answer-1a-a": "White phosphorus - transducers equipped with a white phosphor screen generate an image close to black and white, with a delicate blue glow. This image is more natural to the human eye and provides greater contrast.",
+        "answer-1a-b": "Green phosphorus - drivers with a green phosphor screen produce a black and green image. The human eye can distinguish the most shades of intermediate green so that more detail is visible.",
+        "answer-2": "There is no clear answer to this question, a lot depends on the individual preferences of the user. White phosphorus has recently been gaining popularity mainly due to the generation of a more natural image for humans - black and white. It provides a more contrasting image and allows for easier, simultaneously advantageous, night vision and thermal imaging devices. It should be remembered that green phosphorus reflects more colors, thanks to which it is easier to identify observable objects and in the case of Photonis transducers, it provides about 10-20% better amplification of the transducer.",
+        "answer-3": "There are two aspects to consider to answer this question. First, in the world, the main division is made on the basis of the American standard established by the U.S. Army's Night Vision and Electronic Sensors Directorate. It separates generations based on key components, not the parameters achieved. Generation 2 includes all transducers equipped with a multi-channel plate (MCP), while generation 3 includes a device with an MCP plate and a GaAs photocathode. As 4G transducers are equipped with the latest multi-material photocathode capable of wide-spectral operation, and not GaAs photocathode, they do not formally meet the definition of generation 3. However, it should be emphasized that the performance of these transducers is equal to generation 3 and in some cases they outclass it. The only field where Generation 3 achieves better parameters are the conditions of extreme darkness, but this advantage is not big. Importantly, the Photonis 4G transducers introduced in 2014 are the first in the world that meet the assumptions for 4G night vision, that is:",
+        "answer-3-list": {
+            "a-point-1": "- Extended work spectrum - ",
+            "a-point-1a": "transducers collect and amplify photons for a wide spectrum of wavelengths, delivering high-quality images in all conditions and environments (from <400nm to> 900nm)",
+            "a-point-2": "- High FOM - ",
+            "a-point-2a": "FOM value above 1800 (for military transducers).",
+            "a-point-3": "- High resolution - ",
+            "a-point-3a": "resolution always above 57 lp / mm, even in the most light polluted conditions such as urban areas or buildings where the light is suddenly turned on.",
+            "a-point-4": "- Little halo"
+        },
+        "answer-4": "Both new and used civil night vision equipment can be shipped to any person or company in the European Union. It should be remembered that in the case of transporting your own equipment abroad (e.g. going hunting), you should first make sure that the possession of such equipment in the destination country is legal and that the appropriate official permission for export has been obtained. In addition, export without additional costs is possible to the countries listed in the general EU export authorization, i.e. to Australia, Canada, New Zealand, the United States, Norway and Japan. If you want to purchase equipment with shipment abroad, please contact us in advance.",
+        "answer-5": "Night vision equipment can be divided into two categories - civilian and military equipment. Civil equipment is treated as dual-use goods and can be freely purchased by citizens of the European Union and the countries listed in point 4. A separate category is equipment manufactured specifically for the needs of the army or the police, which is treated as items of strategic importance, which, both as new and used, may be purchased only by authorized bodies.",
+        "answer-6a": "Resolution - expressed in pairs of lines per millimeter (lp / mm). This is the limiting resolution that a night vision transducer provides when measured in the central area. As a rule, the higher the resolution, the easier it is to see details of objects in the field of view.",
+        "answer-6b": "Photocathode Sensitivity - This is a measure of the ability of the tube to convert the residual light into an electrical signal. The more photons are converted into electrons, the better the MCP is able to amplify the signal for a brighter and more distinct image.",
+        "answer-6c": "FOM (Figure of Merit) - general indicator of the converter quality, calculated by the product of the resolution sensed in lp / mm and the signal-to-noise ratio. FOM = lp / mm * SNR",
+        "answer-6d": "HALO - this value determines the amount of the glow surrounding bright points in the night vision image.",
+        "answer-6e": "FOV - defines the field of view, expressed in degrees. This value corresponds to the viewing angle of the device.",
+        "answer-6f": "Signal-to-Noise Ratio (SNR, S / N) - This value is a measure of the amount of light reaching the observer's eye measured in relation to the noise generated by the image intensifier. The higher the SNR value, the lower the amount of noise in the image, which is very important when using the devices, especially in residual lighting conditions. Gain @ 2.10-5 lx",
+        "answer-6g": "Resolution in the middle is the same as resolution",
+        "answer-6h": "Resolution> @ 200 lux - same as resolution only under bright lighting conditions.",
+        "answer-6i": "EBI - this is the amount of light that is generated by the transducer when there is no photocathode illumination. The EBI level determines the lowest illumination level at which an object can be observed on the transducer screen."
     }
 }

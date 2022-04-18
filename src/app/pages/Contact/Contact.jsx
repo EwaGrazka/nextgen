@@ -19,10 +19,10 @@ export const Contact = ({ isNight }) => {
             </div>
             <div className='contact-content'>
                 <p className='adress-wrapper'>
-                    <span>ul. Zaułek 1,</span>
-                    <span>66-615 Łagów</span>
-                    <span>+48 601 442 442</span>
-                    <span>Koncesja MSWiA B-102/2018</span>
+                    <span>{t('contact.street')}</span>
+                    <span>{t('contact.city')}</span>
+                    <span>{t('contact.phone')}</span>
+                    <span>{t('contact.mswia')}</span>
                 </p>
                 <img src={isNight ? mapG : map} alt='map adresss' />
             </div>

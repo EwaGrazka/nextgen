@@ -20,10 +20,10 @@ export const FAQ = ({ isNight }) => {
             <div className='faq-content'>
                 <Title isNight={isNight} title={t('faq.faq-1')} />
                 <p>{t('faq.answer-1')}</p>
-                <Title isNight={isNight} title='Jakie są rodzaje fosforów?' />
-                <p>Fosfor biały- przetworniki wyposażone w biały ekran fosforowy generują obraz zbliżony do czarno-białego, z delikatną nieboską poświata. Taki obraz jest bardziej naturalny dla ludzkiego oka oraz zapewnia większy kontrast.</p>
+                <Title isNight={isNight} title={t('faq.faq-1a')} />
+                <p>{t('faq.answer-1a-a')}</p>
                 <br />
-                <p>Fosfor zielony - przetworniki z zielonym ekranem fosforowym wytwarzają obraz czarno-zielony. Ludzkie oko rozróżnia najwięcej odcieni pośrednich zieleni, dzięki czemu widoczne jest więcej szczegółów.</p>
+                <p>{t('faq.answer-1a-b')}</p>
                 <Title isNight={isNight} title={t('faq.faq-2')} />
                 <p>{t('faq.answer-2')}</p>
                 <Title isNight={isNight} title={t('faq.faq-3')} />
@@ -36,26 +36,24 @@ export const FAQ = ({ isNight }) => {
                 <p>{t('faq.answer-4')}</p>
                 <Title isNight={isNight} title={t('faq.faq-5')} />
                 <p>{t('faq.answer-5')}</p>
-                <Title isNight={isNight} title='Jakie są podstawowe parametry noktowizora?' />
-                <p>Rozdzielczość - wyrażona jest w parach linii na milimetr (lp/mm). Jest to graniczna rozdzielczość jaką zapewnia przetwornik noktowizyjny, mierzona w środkowym obszarze. Co do zasady im większa rozdzielczość tym łatwiej dostrzec szczegóły obiektów w polu widzenia.</p>
+                <Title isNight={isNight} title={t('faq.faq-6')} />
+                <p>{t('faq.answer-6a')}</p>
                 <br />
-                <p>Czułość fotokatody - Jest to miara zdolności tuby do konwersji światła szczątkowego na sygnał elektryczny. Im więcej fotonów jest konwertowanych na elektrony, tym lepiej MCP jest w stanie wzmocnić sygnał uzyskując jaśniejszy i bardziej wyraźny obraz.
-                </p>
+                <p>{t('faq.answer-6b')}</p>
                 <br />
-                <p>FOM (Figure of Merit) - ogólny wskaźnik jakości przetwornika, obliczany jest poprzez iloczyn rozdzielczości wrażonej w lp/mm i stosunku sygnału do szumu. FOM=lp/mm * SNR</p>
+                <p>{t('faq.answer-6c')}</p>
                 <br />
-                <p>HALO - wartość ta określa wielkość poświaty otaczającej jasne punkty w obrazie noktowizyjnym.</p>
+                <p>{t('faq.answer-6d')}</p>
                 <br />
-                <p>FOV - określa pole widzenia, wyrażone w stopniach. Wartość ta odpowiada kątowi widzenia urządzenia.
-                </p>
+                <p>{t('faq.answer-6e')}</p>
                 <br />
-                <p>Stosunek sygnału do szumów (SNR, S/N) - wartość ta jest miarą ilości światła docierającego do oka obserwatora zmierzonego w stosunku do szumu generowanego przez wzmacniacz obrazu. Im wyższa wartość SNR tym mniejsza ilość szumów w obrazie, co ma bardzo duże znaczenie, przy użytkowaniu urządzeń szczególnie w warunkach szczątkowego oświetlenia. Wzmocnienie @ 2.10-5 lx</p>
+                <p>{t('faq.answer-6f')}</p>
                 <br />
-                <p>Rozdzielczość w środku – to to samo co rozdzielczość</p>
+                <p>{t('faq.answer-6g')}</p>
                 <br />
-                <p>Rozdzielczość @ 200 lux – to samo co rozdzielczość tylko w warunkach jasnego oświetlenia.</p>
+                <p>{t('faq.answer-6h')}</p>
                 <br />
-                <p>EBI - jest to ilość światła, która jest generowana przez przetwornik gdy nie ma żadnego oświetlenia fotokatody. Poziom EBI określa najniższy poziom oświetlenia, przy którym można zaobserwować obiekt na ekranie przetwornika.</p>
+                <p>{t('faq.answer-6i')}</p>
             </div>
         </div >
     );

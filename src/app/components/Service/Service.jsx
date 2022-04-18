@@ -1,18 +1,22 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Title } from '../Title/Title';
 import './Service.scss'
 
 export const Service = ({ isNight }) => {
+    const { t, i18n } = useTranslation('common');
+
     return (
         <section>
             <Title isNight={isNight} title='Serwis' />
-            <p>Prowadzimy pełen serwis urządzeń noktowizyjnych wielu typów obejmujący naprawy, modyfikacje konstrukcyjne, przeglądy okresowe oraz czyszczenie sprzętu.</p><p>Obsługiwane przetworniki noktowizyjne:</p>
+            <p>{t('home.service.text-1')}</p>
+            <p>{t('home.service.text-1a')}</p>
             <ul className={isNight ? 'service-list-n' : 'service-list'}>
-                <li><span>- </span>Gen 2+</li>
-                <li><span>- </span>Gen 3</li>
-                <li><span>- </span>4G</li>
+                <li><span>- </span>{t('home.service.list-a')}</li>
+                <li><span>- </span>{t('home.service.list-b')}</li>
+                <li><span>- </span>{t('home.service.list-c')}</li>
             </ul>
-            <p className='service-p'> W sprzedaży posiadamy szeroki wybór przetworników noktowizyjnych, w wielu różnych formatach, które mogą być opcjonalnie zaopatrzone w funkcje autogatingu oraz zielony lub biały fosfor.
+            <p className='service-p'> {t('home.service.text-2')}
             </p>
         </section>
     );
