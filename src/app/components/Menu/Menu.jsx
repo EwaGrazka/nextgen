@@ -15,22 +15,22 @@ function Menu({ isNight, setIsNight }) {
 
     return <div className='menu-container'>
         <ul className={!isNight ? 'menu-wrapper' : 'menu-wrapper-n'}>
-            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/" ? '#08C3D5' : '' }}
+            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
                 to={{
                     pathname: "/",
                 }}
             >{t('commons.links.home')}</Link></li>
-            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/products" ? '#08C3D5' : '' }}
+            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/products" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
                 to={{
                     pathname: "/products",
                 }}
             >{t('commons.links.products')}</Link></li>
-            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/faq" ? '#08C3D5' : '' }}
+            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/faq" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
                 to={{
                     pathname: "/faq",
                 }}
             >{t('commons.links.faq')}</Link></li>
-            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/contact" ? '#08C3D5' : '' }}
+            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/contact" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
                 to={{
                     pathname: "/contact",
                 }}

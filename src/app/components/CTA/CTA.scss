@@ -1,4 +1,4 @@
-.cta-container {
+.cta-container, .cta-container-n {
     background-color: #08C3D5;
     color: #fff;
     display: flex;
@@ -10,7 +10,7 @@
     background: url(../../../assets//bcg-white.jpg);
     background-size: cover;
     background-position: left;
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
     .cta-buttons-wrapper {
       margin-top: 20px;
@@ -65,4 +65,11 @@
     }
     
     }
+  }
+
+  .cta-container-n {
+    background: url(../../../assets//bcg-green.jpg);
+    background-size: 100% auto;
+    padding: 100px;
+    
   }

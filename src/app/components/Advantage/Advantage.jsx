@@ -3,11 +3,11 @@ import './Advantage.scss';
 import { loadAnimation } from "lottie-web";
 import { defineLordIconElement } from "lord-icon-element";
 
-export const Advantage = ({ title, description, ico }) => {
+export const Advantage = ({ title, description, ico, isNight }) => {
     defineLordIconElement(loadAnimation);
     return (
 
-        <div className='advantage-container'>
+        <div className={isNight ? 'advantage-container-n' : 'advantage-container'}>
             <img src={ico} />
             <h6>{title}</h6>
             <p>{description}</p>

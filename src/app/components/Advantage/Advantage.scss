@@ -1,4 +1,4 @@
-.advantage-container {
+.advantage-container, .advantage-container-n {
     width: 300px;
     height: 250px;
     display: flex;
@@ -53,4 +53,18 @@ text-transform: uppercase;
         font-size: 16px;
         font-weight: normal;
     }
+}
+.advantage-container-n {
+  &::after {
+  border-bottom-color: #23b213;
+  border-right-color: #23b213;
+}
+
+  h6 {
+      color: #fff;
+  }
+  p {
+
+      color: #fff;
+  }
 }

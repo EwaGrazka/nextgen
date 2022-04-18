@@ -1,4 +1,4 @@
-.footer-container {
+.footer-container, .footer-container-n {
     background-color: #fff;
     border-top: 1px solid #08C3D5;
     width: 100%;
@@ -15,4 +15,14 @@
         margin-left: 5px;
         text-decoration: none;
     }
+}
+
+.footer-container-n {
+    background-color: #000;
+    border-top: 1px solid #23b213;
+    color: #fff;
+    a {
+        color: #23b213;
+    }
+
 }

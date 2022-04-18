@@ -1,7 +1,11 @@
-.advantages-wrapper {
+.advantages-wrapper, .advantages-wrapper-n {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     padding: 100px;
     padding-bottom: 50px;
+}
+
+.advantages-wrapper-n {
+   background-color: #000;
 }

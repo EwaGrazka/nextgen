@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 function Header({ isNight, setIsNight, isScroll }) {
 
-    return <div style={{ borderBottom: isScroll ? '1px solid #08C3D5' : null }} className={isNight ? "header-container-n" : "header-container"} >
+    return <div style={{ borderBottom: isScroll ? (isNight ? '1px solid #23b213' : '1px solid #08C3D5') : null }} className={isNight ? "header-container-n" : "header-container"} >
         <img src={isNight ? logoW : logoB} className='header-logo' alt='logo nextgen' />
         <div>
             <Menu isNight={isNight} />

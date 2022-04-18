@@ -46,7 +46,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
-      <Footer />
+      <Footer isNight={isNight} />
     </div>
   );
 }

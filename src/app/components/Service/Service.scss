@@ -1,4 +1,4 @@
-.service-list {
+.service-list, .service-list-n {
     span {
         font-size: 30px;
         color: #08C3D5;
@@ -7,4 +7,14 @@
     list-style-type: none;
     font-size: 20px;
     font-weight: bold;
+} 
+
+.service-list-n {
+    span {
+        color: #23b213;
+    }
+}
+
+p.service-p {
+    padding-bottom: 50px;
 }
