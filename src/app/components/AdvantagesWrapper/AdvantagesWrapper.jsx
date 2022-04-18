@@ -13,9 +13,9 @@ import moonG from '../../../assets/moon-green.png'
 export const AdvantagesWrapper = ({ isNight }) => {
     return (
         <div className={isNight ? 'advantages-wrapper-n' : 'advantages-wrapper'}>
-            <Advantage isNight ico={isNight ? glassesG : glasses} title='Fachowa pomoc' description='Doświadczeni pracownicy służący radą.' />
-            <Advantage isNight ico={isNight ? moonG : moon} title='Profesjonalny sprzęt' description='Tylko uznane i sprawdzone rozwiązania.' />
-            <Advantage isNight ico={isNight ? legalG : legal} title='Pełna legalność' description='Gwarancja legalności.' />
+            <Advantage isNight={isNight} ico={isNight ? glassesG : glasses} title='Fachowa pomoc' description='Doświadczeni pracownicy służący radą.' />
+            <Advantage isNight={isNight} ico={isNight ? moonG : moon} title='Profesjonalny sprzęt' description='Tylko uznane i sprawdzone rozwiązania.' />
+            <Advantage isNight={isNight} ico={isNight ? legalG : legal} title='Pełna legalność' description='Gwarancja legalności.' />
             <Advantage isNight={isNight} ico={isNight ? truckG : truck} title='Szybka dostawa' description='Towar wysyłamy firmą kurierską.' />
         </div>
     );

@@ -1,13 +1,15 @@
 import React from 'react';
 import bcgSubpage from '../../../assets/bcg-white.jpg';
+import bcgSubpageG from '../../../assets/bcg-green.jpg';
+
 import './Products.scss';
 import examplePhoto from '../../../assets/NVG-50-940x740-1.png';
 
-export const Products = () => {
+export const Products = ({ isNight }) => {
     return (
-        <div className='products-container'>
+        <div className={isNight ? 'products-container-n' : 'products-container'}>
             <div className='subpage-header'>
-                <img className='products-header-img' src={bcgSubpage} />
+                <img className='products-header-img' src={isNight ? bcgSubpageG : bcgSubpage} />
                 <h1>Produkty</h1>
             </div>
             <div className='products-content'>

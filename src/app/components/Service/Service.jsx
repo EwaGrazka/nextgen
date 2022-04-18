@@ -5,7 +5,7 @@ import './Service.scss'
 export const Service = ({ isNight }) => {
     return (
         <section>
-            <Title title='Serwis' />
+            <Title isNight={isNight} title='Serwis' />
             <p>Prowadzimy pełen serwis urządzeń noktowizyjnych wielu typów obejmujący naprawy, modyfikacje konstrukcyjne, przeglądy okresowe oraz czyszczenie sprzętu.</p><p>Obsługiwane przetworniki noktowizyjne:</p>
             <ul className={isNight ? 'service-list-n' : 'service-list'}>
                 <li><span>- </span>Gen 2+</li>

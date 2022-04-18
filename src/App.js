@@ -41,10 +41,10 @@ function App() {
       <Header isNight={isNight} setIsNight={setIsNight} isScroll={isScroll} />
       <Routes>
         <Route path="/" element={<Home isNight={isNight} />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/products" element={<Products isNight={isNight} />} />
+        <Route path="/faq" element={<FAQ isNight={isNight} />} />
+        <Route path="/contact" element={<Contact isNight={isNight} />} />
+        <Route path="/privacy" element={<Privacy isNight={isNight} />} />
       </Routes>
       <Footer isNight={isNight} />
     </div>
