@@ -7,6 +7,7 @@ import { Products } from "./app/pages/Products/Products";
 import { Privacy } from "./app/pages/Privacy/Privacy";
 import { Contact } from "./app/pages/Contact/Contact";
 import { Home } from "./app/pages/Home/Home";
+import { Footer } from "./app/components/Footer/Footer";
 
 function App() {
   const [isNight, setIsNight] = useState(false);
@@ -39,12 +40,13 @@ function App() {
     <div className="App">
       <Header isNight={isNight} setIsNight={setIsNight} isScroll={isScroll} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home isNight={isNight} />} />
         <Route path="/products" element={<Products />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

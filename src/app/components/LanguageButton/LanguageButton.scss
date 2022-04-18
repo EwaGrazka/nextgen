@@ -1,4 +1,4 @@
-.language-button {
+.language-button, .language-button-n {
     border: none;
     text-transform: uppercase;
     color: #000;
@@ -6,4 +6,8 @@
     background-color: transparent;
     cursor: pointer;
     margin: 5px;
+}
+
+.language-button-n {
+    color: #fff; 
 }

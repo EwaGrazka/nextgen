@@ -6,7 +6,7 @@ export const ModeToggle = ({ isNight, setIsNight }) => {
         <>
             <div class="wrapper">
                 <input type="checkbox" id="hide-checkbox" onChange={() => setIsNight(!isNight)} checked={!isNight} />
-                <label for="hide-checkbox" class="toggle">
+                <label style={{ border: isNight ? '1px solid #23b213' : '1px solid #08C3D5' }} for="hide-checkbox" className="toggle">
                     <span class="toggle-button">
                         <span class="crater crater-1"></span>
                         <span class="crater crater-2"></span>

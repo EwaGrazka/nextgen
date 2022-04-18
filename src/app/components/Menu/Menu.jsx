@@ -8,25 +8,29 @@ import "./Menu.scss";
 
 
 
-function Menu({ night, setNight }) {
+function Menu({ isNight, setIsNight }) {
 
     const { t, i18n } = useTranslation('common');
     const location = useLocation();
 
     return <div className='menu-container'>
-        <ul className='menu-wrapper'>
-
-            <li className='menu-link' ><Link style={{ color: location.pathname === "/products" ? '#08C3D5' : '#000' }}
+        <ul className={!isNight ? 'menu-wrapper' : 'menu-wrapper-n'}>
+            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/" ? '#08C3D5' : '' }}
+                to={{
+                    pathname: "/",
+                }}
+            >{t('commons.links.home')}</Link></li>
+            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/products" ? '#08C3D5' : '' }}
                 to={{
                     pathname: "/products",
                 }}
             >{t('commons.links.products')}</Link></li>
-            <li className='menu-link' ><Link style={{ color: location.pathname === "/faq" ? '#08C3D5' : '#000' }}
+            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/faq" ? '#08C3D5' : '' }}
                 to={{
                     pathname: "/faq",
                 }}
             >{t('commons.links.faq')}</Link></li>
-            <li className='menu-link' ><Link style={{ color: location.pathname === "/contact" ? '#08C3D5' : '#000' }}
+            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/contact" ? '#08C3D5' : '' }}
                 to={{
                     pathname: "/contact",
                 }}

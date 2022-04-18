@@ -11,9 +11,9 @@ function Header({ isNight, setIsNight, isScroll }) {
     return <div style={{ borderBottom: isScroll ? '1px solid #08C3D5' : null }} className={isNight ? "header-container-n" : "header-container"} >
         <img src={isNight ? logoW : logoB} className='header-logo' alt='logo nextgen' />
         <div>
-            <Menu />
+            <Menu isNight={isNight} />
             <ModeToggle isNight={isNight} setIsNight={setIsNight} />
-            <LanguageToggle />
+            <LanguageToggle isNight={isNight} />
         </div>
 
     </ div>
