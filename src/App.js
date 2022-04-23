@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Header from "./app/components/Header/Header";
 import { FAQ } from "./app/pages/FAQ/FAQ";
@@ -10,8 +10,7 @@ import { Home } from "./app/pages/Home/Home";
 import { Footer } from "./app/components/Footer/Footer";
 
 function App() {
-  const [isNight, setIsNight] = useState(false);
-  const [lang, setLang] = useState("pl");
+  const [isNight, setIsNight] = useState(true);
   const [y, setY] = useState(window.scrollY);
   const [isScroll, setIsScroll] = useState(false);
 

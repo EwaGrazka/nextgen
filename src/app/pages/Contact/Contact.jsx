@@ -3,8 +3,8 @@ import bcgSubpage from '../../../assets/bcg-white.jpg';
 import bcgSubpageG from '../../../assets/bcg-green.jpg';
 
 import './Contact.scss'
-import map from '../../../assets/lagow.png'
-import mapG from '../../../assets/lagow-green.png'
+import map from '../../../assets/map.png'
+import mapG from '../../../assets/mapG.png'
 import { useTranslation } from 'react-i18next';
 
 
