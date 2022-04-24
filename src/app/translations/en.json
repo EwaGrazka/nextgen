@@ -50,8 +50,9 @@
 
     "contact": {
         "street": "Leśna 1",
-        "city": "Sopot",
+        "city": "81-854 Sopot",
         "phone": "+48 601 442 442",
+        "email": "info@nnvs.pl",
         "mswia": "MSWiA concession B-102/2018"
     },
     "products": {

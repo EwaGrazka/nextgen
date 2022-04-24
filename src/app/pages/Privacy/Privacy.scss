@@ -1,0 +1,82 @@
+.privacy-content, .privacy-content-n {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-weight: 400;
+    span {
+        display: block;
+    }
+    p {
+        margin: 10px 0;
+    }
+    .p-highlight {
+        position: relative;
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        font-weight: bold;
+        display: inline-block;
+        margin: 30px 0px 0px -10px;
+         
+         &::before {
+              content: '';
+            display: block;
+            position: absolute;
+            width: 30px;
+            height: 15px;
+            border: 2px solid;
+            transition: all 0.6s ease;
+            border-radius: 2px;
+          }
+          &::before {
+              top: 0;
+            left: 0;
+            border-bottom-color: transparent;
+            border-right-color: transparent;
+            border-top-color: #08C3D5;
+            border-left-color: #08C3D5;
+          }
+      }
+      ul {
+        list-style: none;
+        width: 100%;
+      li {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px 0;
+        font-weight: 400px !important;
+        font-size: 20px;
+      }
+        li:before {
+              color: #08C3D5;
+              content: "\25C8";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+              font-weight: bold; /* If you want it to be bold */
+              display: inline-block; /* Needed to add space between the bullet and the text */
+              font-size: 30px;
+              margin-right: 10px;
+              margin-top: -6px;
+          }
+      }
+    
+}
+
+
+.privacy-content-n {
+  background-color: #000;
+  color: #fff;
+    .p-highlight {
+          &::before {
+            border-top-color: #23b213;
+            border-left-color: #23b213;
+          }
+      }
+      ul {
+        li:before {
+              color: #23b213;
+          }
+      }
+    
+}

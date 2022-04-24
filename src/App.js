@@ -8,6 +8,7 @@ import { Privacy } from "./app/pages/Privacy/Privacy";
 import { Contact } from "./app/pages/Contact/Contact";
 import { Home } from "./app/pages/Home/Home";
 import { Footer } from "./app/components/Footer/Footer";
+import { Rules } from "./app/pages/Rules/Rules";
 
 function App() {
   const [isNight, setIsNight] = useState(true);
@@ -44,6 +45,7 @@ function App() {
         <Route path="/faq" element={<FAQ isNight={isNight} />} />
         <Route path="/contact" element={<Contact isNight={isNight} />} />
         <Route path="/privacy" element={<Privacy isNight={isNight} />} />
+        <Route path="/rules" element={<Rules isNight={isNight} />} />
       </Routes>
       <Footer isNight={isNight} />
     </div>
