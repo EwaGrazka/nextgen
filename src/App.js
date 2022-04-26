@@ -47,6 +47,7 @@ function App() {
         <Route path="/privacy" element={<Privacy isNight={isNight} />} />
         <Route path="/rules" element={<Rules isNight={isNight} />} />
       </Routes>
+
       <Footer isNight={isNight} />
     </div>
   );

@@ -41,8 +41,6 @@ export const Home = ({ isNight }) => {
             <section className={isNight ? 'nightvision-n' : 'nightvision'}>
                 <Title isNight={isNight} title={t("home.nightvision")} />
                 <p>{t("home.nightvisionText")}</p></section>
-
-            <CTA isNight={isNight} text={t('home.cta-2')} />
         </>
 
     );

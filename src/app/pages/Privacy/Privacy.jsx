@@ -3,16 +3,14 @@ import bcgSubpage from '../../../assets/bcg-white.jpg';
 import bcgSubpageG from '../../../assets/bcg-green.jpg';
 import { useTranslation } from 'react-i18next';
 import './Privacy.scss';
+import { SubpageHeader } from '../../components/SubpageHeader/SubpageHeader';
 
 export const Privacy = ({ isNight }) => {
     const { t, i18n } = useTranslation('common');
 
     return (
         <div className={isNight ? 'products-container-n' : 'products-container'}>
-            <div className='subpage-header'>
-                <img className='products-header-img' src={isNight ? bcgSubpageG : bcgSubpage} />
-                <h1>Polityka prywatności</h1>
-            </div>
+            <SubpageHeader isNight={isNight} text='Polityka prywatności' />
             <div className={isNight ? 'privacy-content-n' : 'privacy-content'}>
                 <p>Zgodnie art. 13 ust. 1 i 2 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27.04.2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.Urz. UE L 119, s. 1), zwanym dalej: RODO, informuję Panią/Pana, że:</p>
                 <p className='p-highlight'>Administratorem Pani/Pana danych osobowych jest:</p>

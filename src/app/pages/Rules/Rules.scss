@@ -1,4 +1,4 @@
-.rules-content {
+.rules-content, .rules-content-n {
     padding: 100px;
     display: flex;
     flex-direction: column;
@@ -51,6 +51,27 @@ p {
     margin: 20px 0 0;
     span {
         font-weight: bold;
+    }
+}
+}
+
+
+.rules-content-n {
+background-color: #000;
+color: #fff;
+ 
+  .paragraph {
+  span {
+    color: #23b213;
+  }
+
+      &::after {
+      border-bottom-color: #23b213;
+      border-right-color: #23b213;
+    }
+    &::before {
+      border-top-color: #23b213;
+      border-left-color: #23b213;
     }
 }
 }

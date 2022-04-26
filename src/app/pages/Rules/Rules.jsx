@@ -13,7 +13,7 @@ export const Rules = ({ isNight }) => {
                 <img className='products-header-img' src={isNight ? bcgSubpageG : bcgSubpage} />
                 <h1>Regulamin</h1>
             </div>
-            <div className='rules-content'>
+            <div className={isNight ? 'rules-content-n' : 'rules-content'}>
                 <div className='paragraph'>
                     <span>§ 1</span>
                     Postanowienia wstępne
@@ -43,6 +43,40 @@ export const Rules = ({ isNight }) => {
                 <p><span>13. Produkt – </span>dostępna w Sklepie rzecz ruchoma/usługa będąca przedmiotem Umowy Sprzedaży między Klientem a Sprzedawcą.</p>
                 <p><span>14. Umowa Sprzedaży – </span>
                     umowa sprzedaży Produktu zawierana albo zawarta między Klientem a Sprzedawcą za pośrednictwem Sklepu internetowego. Przez Umowę Sprzedaży rozumie się też – stosowanie do cech Produktu – umowę o świadczenie usług i umowę o dzieło.</p>
+                <div className='paragraph'>
+                    <span>§ 3</span>
+                    Kontakt ze Sklepem
+                </div>
+                <p>1. Adres Sprzedawcy: <span>66-615 Łagów, Zaułek 1</span></p>
+                <p>2. Adres e-mail Sprzedawcy: <span>info@nnvs.pl</span></p>
+                <p>3. Numer rachunku bankowego Sprzedawcy dla płatności w PLN: <span>80 1950 0001 2006 0036 9265 0001</span></p>
+                <p>4. Numer rachunku bankowego Sprzedawcy dla płatności w EURO: <span>96 1950 0001 2006 0036 9265 0004</span></p>
+                <p>5. Klient może porozumiewać się ze Sprzedawcą za pomocą adresów email podanych w niniejszym paragrafie.</p>
+                <div className='paragraph'>
+                    <span>§ 4</span>
+                    Wymagania techniczne
+                </div>
+                <p>Do korzystania ze Sklepu, w tym przeglądania asortymentu Sklepu oraz składania zamówień na Produkty, niezbędne są:</p>
+                <p>1. urządzenie końcowe z dostępem do sieci Internet i przeglądarką internetową,</p>
+                <p>2. aktywne konto poczty elektronicznej (e-mail),</p>
+                <p>3. włączona obsługa plików cookies,</p>
+                <div className='paragraph'>
+                    <span>§ 5</span>
+                    Informacje ogólne
+                </div>
+                <p>1. Sprzedawca w najszerszym dopuszczalnym przez prawo zakresie nie ponosi odpowiedzialności za zakłócenia w tym przerwy w funkcjonowaniu Sklepu spowodowane siłą wyższą, niedozwolonym działaniem osób trzecich lub niekompatybilnością Sklepu internetowego z infrastrukturą techniczną Klienta.</p>
+                <p>2. Przeglądanie asortymentu Sklepu nie wymaga zakładania Konta. Składanie zamówień przez Klienta na Produkty znajdujące się w asortymencie Sklepu możliwe jest albo po założeniu Konta zgodnie z postanowieniami § 6 Regulaminu albo przez podanie niezbędnych danych osobowych i adresowych umożliwiających realizację Zamówienia bez zakładania Konta.</p>
+                <p>Ceny podane w Sklepie są podane w polskich złotych lub w EURO i są cenami brutto (uwzględniają podatek VAT).</p>
+                <p>Na końcową (ostateczną) kwotę do zapłaty przez Klienta składa się cena za Produkt oraz koszt dostawy (w tym opłaty za transport, dostarczenie i usługi pocztowe), o której Klient jest informowany na stronach Sklepu w trakcie składania Zamówienia, w tym także w chwili wyrażenia woli związania się Umową Sprzedaży.</p>
+                <p>W przypadku Umowy obejmującej prenumeratę lub świadczenie usług na czas nieoznaczony końcową (ostateczną) ceną jest łączna cena obejmująca wszystkie płatności za okres rozliczeniowy.</p>
+                <p>Gdy charakter przedmiotu Umowy nie pozwala, rozsądnie oceniając, na wcześniejsze obliczenie wysokości końcowej (ostatecznej) ceny, informacja o sposobie, w jaki cena będzie obliczana, a także o opłatach za transport, dostarczenie, usługi pocztowe oraz o innych kosztach, będzie podana w Sklepie w opisie Produktu.</p>
+                <div className='paragraph'>
+                    <span>§ 6</span>
+                    Zakładanie konta w Sklepie
+                </div>
+
+
+
             </div>
         </div>
     );

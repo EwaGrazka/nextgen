@@ -32,10 +32,10 @@ export const Footer = ({ isNight }) => {
             </div>
             <div>
                 <div className='ico-container'>
-                    < a href='https://www.facebook.com/nextgennightvision' ><img src={isNight ? facebookLogoG : facebookLogo} /></a >
+                    <a target='_blank' href='https://www.facebook.com/nextgennightvision' ><img src={isNight ? facebookLogoG : facebookLogo} /></a >
                 </div>
                 <div className='ico-container'>
-                    < a href='https://www.instagram.com/nnvs_pl/' ><img src={isNight ? instaLogoG : instaLogo} /></a >
+                    <a target='_blank' href='https://www.instagram.com/nnvs_pl/' ><img src={isNight ? instaLogoG : instaLogo} /></a >
                 </div>
             </div>
         </div >

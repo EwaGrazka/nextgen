@@ -1,20 +1,7 @@
 .products-container, .products-container-n {
     display: flex;
     flex-direction: column;
-    img.products-header-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 50vh;
-        width: 100%;
-    }
-    h1 {
-margin-top: 100px;
-color: #fff;
-font-size: 60px;
-z-index: 12;
-text-transform: uppercase;
-    }
+
     .products-content {
         padding: 100px;
         display: flex;

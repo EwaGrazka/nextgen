@@ -5,16 +5,14 @@ import bcgSubpageG from '../../../assets/bcg-green.jpg';
 import './Products.scss';
 import examplePhoto from '../../../assets/NVG-50-940x740-1.png';
 import { useTranslation } from 'react-i18next';
+import { SubpageHeader } from '../../components/SubpageHeader/SubpageHeader';
 
 export const Products = ({ isNight }) => {
     const { t, i18n } = useTranslation('common');
 
     return (
         <div className={isNight ? 'products-container-n' : 'products-container'}>
-            <div className='subpage-header'>
-                <img className='products-header-img' src={isNight ? bcgSubpageG : bcgSubpage} />
-                <h1>{t('commons.links.products')}</h1>
-            </div>
+            <SubpageHeader text={t('commons.links.products')} isNight={isNight} />
             <div className='products-content'>
                 <div className='product'>
                     <img className='product-img' src={examplePhoto} />

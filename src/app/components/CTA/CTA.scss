@@ -1,4 +1,5 @@
 .cta-container, .cta-container-n {
+  height: 380px;
     background-color: #08C3D5;
     color: #fff;
     display: flex;
@@ -7,11 +8,15 @@
     flex-direction: column;
     font-size: 30px;
     font-weight: bold;
-    background: url(../../../assets//bcg-white.jpg);
-    background-size: cover;
-    background-position: left;
-    padding-top: 100px;
-    text-align: center;
+    background-color:#fff;
+    background-image: linear-gradient(#08C3D5 2px, transparent 2px),
+    linear-gradient(90deg, #08C3D5 1px, transparent 1px),
+    linear-gradient(rgba(35,178,19,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(35,178,19,.3) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    color: #000;
+    
     .cta-buttons-wrapper {
       margin-top: 20px;
       button {
@@ -22,7 +27,7 @@
       position: relative;
       border: none;
       background-color: transparent;
-      color: #fff;
+      color: #000;
       cursor: pointer;
       padding: 10px;
       outline: none;
@@ -46,16 +51,16 @@
           right: 0;
           border-top-color: transparent;
           border-left-color: transparent;
-          border-bottom-color: #fff;
-          border-right-color: #fff;
+          border-bottom-color: #000;
+          border-right-color: #000;
         }
         &::before {
             top: 0;
           left: 0;
           border-bottom-color: transparent;
           border-right-color: transparent;
-          border-top-color: #fff;
-          border-left-color: #fff;
+          border-top-color: #000;
+          border-left-color: #000;
         }
         &:hover::after,
         &:hover::before {
@@ -68,16 +73,43 @@
           height: 100%;
           z-index: 16;
           padding: 10px;
-          color: #fff;
+          color: #000;
           text-decoration: none;
           position: relative;
+          background-color: rgba(255, 255, 255, 0.15);
         }
     }
   }
-
   .cta-container-n {
-    background: url(../../../assets//bcg-green.jpg);
-    background-size: 100% auto;
-    padding: 100px;
+    color: #fff;
+    background-color:#000;
+    background-image: linear-gradient(#23b213 2px, transparent 2px),
+    linear-gradient(90deg, #23b213 1px, transparent 1px),
+    linear-gradient(rgba(35,178,19,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(35,178,19,.3) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
     
+    .cta-buttons-wrapper {
+      button {
+      color: #fff;
+
+          &::after {
+
+          border-bottom-color: #fff;
+          border-right-color: #fff;
+        }
+        &::before {
+
+          border-top-color: #fff;
+          border-left-color: #fff;
+        }
+ 
+        }
+        a {
+
+          color: #fff;
+
+        }
+    }
   }

@@ -6,6 +6,7 @@ import { Title } from '../../components/Title/Title';
 
 
 import './FAQ.scss';
+import { SubpageHeader } from '../../components/SubpageHeader/SubpageHeader';
 
 
 export const FAQ = ({ isNight }) => {
@@ -13,10 +14,8 @@ export const FAQ = ({ isNight }) => {
 
     return (
         <div className={isNight ? 'faq-container-n' : 'faq-container'}>
-            < div className='subpage-header' >
-                <img className='products-header-img' src={isNight ? bcgSubpageG : bcgSubpage} />
-                <h1>FAQ</h1>
-            </div >
+            <SubpageHeader isNight={isNight} text='FAQ' />
+
             <div className='faq-content'>
                 <Title isNight={isNight} title={t('faq.faq-1')} />
                 <p>{t('faq.answer-1')}</p>
