@@ -10,6 +10,7 @@ import { Home } from "./app/pages/Home/Home";
 import { Footer } from "./app/components/Footer/Footer";
 import { Rules } from "./app/pages/Rules/Rules";
 import { AllProductsWrapper } from "./app/components/AllProductsWrapper/AllProductsWrapper";
+import { ProductPage } from "./app/components/ProductPage/ProductPage";
 
 function App() {
   const [isNight, setIsNight] = useState(true);
@@ -47,9 +48,11 @@ function App() {
           element={<AllProductsWrapper isNight={isNight} />}
         />
         <Route path="/faq" element={<FAQ isNight={isNight} />} />
+        {/* <Route path="/faq" element={<FAQ isNight={isNight} />} /> */}
         <Route path="/contact" element={<Contact isNight={isNight} />} />
         <Route path="/privacy" element={<Privacy isNight={isNight} />} />
         <Route path="/rules" element={<Rules isNight={isNight} />} />
+        <Route path="/product:id" element={<ProductPage isNight={isNight} />} />
       </Routes>
 
       <Footer isNight={isNight} />

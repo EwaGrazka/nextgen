@@ -1,0 +1,105 @@
+.product-main-container, .product-main-container-n {
+    display: flex;
+    padding: 100px;
+    box-sizing: border-box;
+    .product-gallery {
+        width: 50%;
+        padding-right: 50px;
+        .image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
+            border: 4px solid #08C3D5;
+        }
+        .image-gallery-thumbnail:hover {
+            border: 4px solid #08C3D5;
+        }
+        .image-gallery-icon:hover {
+            color: #08C3D5;
+          }
+    }
+    .product-description {
+        width: 50%;
+        text-align: justify;
+    }
+    
+}
+
+.product-main-container-n {
+    .product-gallery {
+        .image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
+            border: 4px solid #23b213;
+        }
+        .image-gallery-thumbnail:hover {
+            border: 4px solid #23b213;
+        }
+        .image-gallery-icon:hover {
+            color: #23b213;
+          }
+    }    
+}
+
+ul.product-advantages-list, ul.product-advantages-list-n {
+        list-style: none;
+        padding: 0 100px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+      li {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px 0;
+        font-weight: 400px !important;
+        font-size: 20px;
+        width: 50%;
+        padding-left: 100px;
+      }
+        li:before {
+              color: #08C3D5;
+              content: "\25C8";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+              font-weight: bold; /* If you want it to be bold */
+              display: inline-block; /* Needed to add space between the bullet and the text */
+              font-size: 30px;
+              margin-right: 10px;
+              margin-top: -6px;
+          }
+      }
+
+
+
+     ul.product-advantages-list-n {
+        li:before {
+              color: #23b213;
+          }
+      }
+
+.product-specification-wrapper, .product-specification-wrapper-n {
+    border: #08C3D5 1px solid;
+    list-style-type: none;
+    width: 800px;
+    margin: 100px auto;
+    font-size: 20px;
+    .product-specification-row {
+        display: flex;
+        text-align: center;
+        border-bottom: #08C3D5 1px solid;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    span {
+        padding: 20px;
+        width: 50%;
+        display: block;
+    }
+    span.specification-name {
+        border-right: 1px solid #08C3D5;
+    }
+}
+
+.product-specification-wrapper-n {
+    border: #23b213 1px solid;
+    .product-specification-row {
+        border-bottom: #23b213 1px solid;
+    }
+    span.specification-name {
+        border-right: 1px solid #23b213;
+    }
+}

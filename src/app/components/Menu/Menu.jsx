@@ -20,16 +20,27 @@ function Menu({ isNight, setIsNight }) {
                     pathname: "/",
                 }}
             >{t('commons.links.home')}</Link></li>
-            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/products" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
-                to={{
-                    pathname: "/products",
-                }}
-            >{t('commons.links.products')}</Link></li>
-            <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/faq" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
+            <div className='link-category-wrapper'>
+
+                <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/products" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
+                    to={{
+                        pathname: "/products",
+                    }}
+                >{t('commons.links.products')}</Link></li>
+                <div className='category-menu'>
+                    <ul className={isNight ? 'menu-hover-n' : 'menu-hover'}>
+                        <li><a href="products#thermovision">{t("home.thermovision")}</a></li>
+                        <li><a href="products#nightvision">{t("home.nightvision")}</a></li>
+                        <li><a href="products#accesories">{t("home.accesories")}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <li className={!isNight ? 'menu-link menu-link-hover' : 'menu-link-n menu-link-hover-n'} ><Link style={{ color: location.pathname === "/faq" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
                 to={{
                     pathname: "/faq",
                 }}
             >{t('commons.links.faq')}</Link></li>
+
             <li className={!isNight ? 'menu-link' : 'menu-link-n'} ><Link style={{ color: location.pathname === "/contact" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
                 to={{
                     pathname: "/contact",

@@ -1,16 +1,27 @@
 
 
+#thermovision, #nightvision, #accesories {
+    padding-top: 150px;
+    margin-top: -150px;
+}
+#thermovision {
+    padding-top: 300px;
+}
 .products-container, .products-container-n {
     display: flex;
     flex-direction: column;
-    h3.category-title {
-        background-color: #000;
-        color: #23b213;
+    h3.category-title, h3.category-title-n {
+        background-color: #fff;
+        color: #08C3D5;
         font-size: 28px;
     padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 100px;
     text-transform: uppercase;
+    }
+    h3.category-title-n {
+        background-color: #000;
+        color: #23b213;
     }
     .products-content {
         padding: 100px;

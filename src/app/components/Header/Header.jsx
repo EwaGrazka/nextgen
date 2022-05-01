@@ -4,12 +4,13 @@ import logoB from '../../../assets/nextgen-logo-black.png';
 import Menu from "../Menu/Menu";
 import { LanguageToggle } from "../LanguageToggle/LanguageToggle";
 import { ModeToggle } from "../ModeToggle/ModeToggle";
-import { useEffect } from "react";
 
 function Header({ isNight, setIsNight, isScroll }) {
 
     return <div style={{ borderBottom: isScroll ? (isNight ? '1px solid #23b213' : '1px solid #08C3D5') : null }} className={isNight ? "header-container-n" : "header-container"} >
-        <img src={isNight ? logoW : logoB} className='header-logo' alt='logo nextgen' />
+        <a href='/'>
+            <img src={isNight ? logoW : logoB} className='header-logo' alt='logo nextgen' />
+        </a>
         <div>
             <Menu isNight={isNight} />
             <ModeToggle isNight={isNight} setIsNight={setIsNight} />

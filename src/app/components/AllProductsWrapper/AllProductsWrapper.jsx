@@ -11,13 +11,10 @@ export const AllProductsWrapper = ({ isNight }) => {
     return (
 
         <div className={isNight ? 'products-container-n' : 'products-container'}>
-
             <SubpageHeader text={t('commons.links.products')} isNight={isNight} />
-            <Products isNight={isNight} title='Termowizja' />
-            <Products isNight={isNight} title='Noktowizja' />
-            <Products isNight={isNight} title='Akcesoria' />
+            <Products id='thermovision' isNight={isNight} title={t("home.thermovision")} />
+            <Products id='nightvision' isNight={isNight} title={t("home.nightvision")} />
+            <Products id='accesories' isNight={isNight} title={t("home.accesories")} />
         </div>
-
-
     );
 };

@@ -32,6 +32,7 @@
             "list-b": "Gen 3",
             "list-c": "4G"
         },
+        "accesories": "Accesories",
         "thermovision": "Thermovision",
         "thermovisionText": "The development of digital image processing techniques and methods of heat detection resulted in a leap improvement in thermal imaging devices. Initially limited by the need to use complex cooling systems and efficient power supply systems, today - already in miniature versions - it is used in many, often distant fields. Usually, a simple assessment of its declared technical parameters is not enough for the proper selection of a device. Often devices made of the same matrices (by different manufacturers) give a completely different optical impression. The quality of the image obtained results not only from the simple parameters and quality of the components used, which can be checked in the DTR (lens, matrix, display), but also from non-obvious factors, such as the software used. Currently available thermal imaging devices are indispensable for quick target detection. With the development of technology, their miniaturization takes place while maintaining the appropriate matrix resolution, its sensitivity and power demand. We encourage you to familiarize yourself in the field with the image quality of a pre-selected device from our store. We believe that the work currently underway to combine with night vision and digital technology will allow us to offer even better solutions in the near future.",
         "nightvision": "Night vision",

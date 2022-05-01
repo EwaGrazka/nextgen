@@ -9,6 +9,7 @@ import { Service } from '../../components/Service/Service';
 import { AdvantagesWrapper } from '../../components/AdvantagesWrapper/AdvantagesWrapper';
 import { Title } from '../../components/Title/Title';
 import { useTranslation } from 'react-i18next';
+import imgB from '../../../assets/img-white.png'
 
 export const Home = ({ isNight }) => {
     const { t, i18n } = useTranslation('common');
@@ -35,7 +36,11 @@ export const Home = ({ isNight }) => {
 
             <section className={isNight ? 'thermovision-n' : 'thermovision'}>
                 <Title isNight={isNight} title={t("home.thermovision")} />
-                <p>{t("home.thermovisionText")}</p>
+                <div style={{ display: 'flex' }}>
+                    <img style={{ width: '600px' }} src={imgB} />
+
+                    <p style={{ textAlign: 'justify' }}>{t("home.thermovisionText-a")}{t("home.thermovisionText-b")}</p>
+                </div>
             </section>
             <AdvantagesWrapper isNight={isNight} />
             <section className={isNight ? 'nightvision-n' : 'nightvision'}>

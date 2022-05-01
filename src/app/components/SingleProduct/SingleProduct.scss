@@ -14,71 +14,15 @@
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 100px;
-  
-    &::after,
-   &::before {
-        content: '';
-      display: block;
-      position: absolute;
-      width: 20%;
-      height: 20%;
-      border: 2px solid;
-      transition: all 0.6s ease;
-      border-radius: 2px;
-    }
-      &::after {
-         bottom: 0;
-      right: 0;
-      border-top-color: transparent;
-      border-left-color: transparent;
-      border-bottom-color: #08C3D5;
-      border-right-color: #08C3D5;
-    }
-    &::before {
-        top: 0;
-      left: 0;
-      border-bottom-color: transparent;
-      border-right-color: transparent;
-      border-top-color: #08C3D5;
-      border-left-color: #08C3D5;
-    }
 
-    &:hover::after,
-    &:hover::before {
-         width: 100%;
-      height: 100%;
-    }
-            .product-img{
-                width: 200px;
-            }
-            .product-title {
-                font-size: 20px;
-                font-weight: bold;
-                text-align: center;
-                span {
-                    display: block;
-                    color: #08C3D5;
-                    margin: 10px 0;
-                }
-            }
-        }
-
-        .product {
-            width: 300px;  
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-  padding: 10px;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  outline: none;
-  margin: 0 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 100px;
+  a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 276;
+  }
   
     &::after,
    &::before {
@@ -129,31 +73,8 @@
         }
 
 
-
-
-
-
-
-        .product {
+.product {
+          a {
             color: #fff;
-
-      &::after {
-         bottom: 0;
-      right: 0;
-      border-top-color: transparent;
-      border-left-color: transparent;
-      border-bottom-color: #23b213;
-      border-right-color: #23b213;
-    }
-    &::before {
-      border-top-color: #23b213;
-      border-left-color: #23b213;
-    }
-
-            .product-title {
- 
-                span {
-                    color: #23b213;
-                }
-            }
+          }
         }
