@@ -16,17 +16,6 @@ $white: #fff;
   }
 }
 
-// *.n {
-//   background-color: $black;
-//   color: $white;
-//   &::selection {
-//     background-color: $green;
-//   }
-// }
-
-
-
-
 .subpage-container {
   width: 100%;
   min-height: 100vh;
@@ -65,24 +54,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  // height: 50vh;
 }
 
 
-*::-webkit-scrollbar {
-  width: 6px; /* width of the entire scrollbar */
-}
-
-*::-webkit-scrollbar-track {
-  background: #000;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #23b213;
-}
-:root {
-  scrollbar-face-color: #23b213;
-  scrollbar-track-color: #000;
-  scrollbar-color: #23b213 #000;
-  scrollbar-width: 6px;
+html {
+  scrollbar-color: #fff #000;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
 }

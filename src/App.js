@@ -48,8 +48,12 @@ function App() {
     );
   }, [window.scrollY]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [window.location.pathname]);
+
   return (
-    <div>
+    <div className="scroller">
       <Header isNight={isNight} setIsNight={setIsNight} isScroll={isScroll} />
 
       <ProgressBar isNight={isNight} scrollValue={scrollValue} />
