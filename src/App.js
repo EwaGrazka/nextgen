@@ -1,9 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import "./App.scss";
 import Header from "./app/components/Header/Header";
 import { FAQ } from "./app/pages/FAQ/FAQ";
-import { Products } from "./app/pages/Products/Products";
 import { Privacy } from "./app/pages/Privacy/Privacy";
 import { Contact } from "./app/pages/Contact/Contact";
 import { Home } from "./app/pages/Home/Home";
@@ -11,6 +9,7 @@ import { Footer } from "./app/components/Footer/Footer";
 import { Rules } from "./app/pages/Rules/Rules";
 import { AllProductsWrapper } from "./app/components/AllProductsWrapper/AllProductsWrapper";
 import { ProductPage } from "./app/components/ProductPage/ProductPage";
+import { ProgressBar } from "./app/components/ProgressBar/ProgressBar";
 
 function App() {
   const [isNight, setIsNight] = useState(true);
@@ -38,9 +37,23 @@ function App() {
     };
   }, [handleNavigation]);
 
+  const [scrollValue, setScrollValue] = useState(0);
+
+  useEffect(() => {
+    const documentHeight = document.documentElement.offsetHeight;
+    const windowHeight = window.innerHeight;
+    const windowTopEdge = window.scrollY;
+    setScrollValue(
+      (windowTopEdge / (documentHeight - windowHeight)).toFixed(2) * 100
+    );
+  }, [window.scrollY]);
+
   return (
-    <div className="App">
+    <div>
       <Header isNight={isNight} setIsNight={setIsNight} isScroll={isScroll} />
+
+      <ProgressBar isNight={isNight} scrollValue={scrollValue} />
+
       <Routes>
         <Route path="/" element={<Home isNight={isNight} />} />
         <Route
@@ -48,7 +61,6 @@ function App() {
           element={<AllProductsWrapper isNight={isNight} />}
         />
         <Route path="/faq" element={<FAQ isNight={isNight} />} />
-        {/* <Route path="/faq" element={<FAQ isNight={isNight} />} /> */}
         <Route path="/contact" element={<Contact isNight={isNight} />} />
         <Route path="/privacy" element={<Privacy isNight={isNight} />} />
         <Route path="/rules" element={<Rules isNight={isNight} />} />

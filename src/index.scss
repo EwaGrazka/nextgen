@@ -1,3 +1,8 @@
+$green: #23b213;
+$blue: #08C3D5;
+$black: #000;
+$white: #fff;
+
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -6,7 +11,22 @@
   margin: 0;
   padding: 0;
   font-family: 'Heebo', sans-serif;
+  &::selection {
+    background-color: $blue;
+  }
 }
+
+// *.n {
+//   background-color: $black;
+//   color: $white;
+//   &::selection {
+//     background-color: $green;
+//   }
+// }
+
+
+
+
 .subpage-container {
   width: 100%;
   min-height: 100vh;
@@ -48,3 +68,21 @@ section {
   // height: 50vh;
 }
 
+
+*::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #23b213;
+}
+:root {
+  scrollbar-face-color: #23b213;
+  scrollbar-track-color: #000;
+  scrollbar-color: #23b213 #000;
+  scrollbar-width: 6px;
+}

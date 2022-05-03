@@ -4,7 +4,7 @@ import { LanguageButton } from '../LanguageButton/LanguageButton';
 import './LanguageToggle.scss';
 
 export const LanguageToggle = ({ isNight }) => {
-    const { t, i18n } = useTranslation('common');
+    const { i18n } = useTranslation('common');
 
     const [colorPL, setColorPL] = useState((isNight ? '#23b213' : '#08C3D5'))
     const [colorEN, setColorEN] = useState('transparent')
@@ -24,14 +24,13 @@ export const LanguageToggle = ({ isNight }) => {
     }
 
     useEffect(() => {
-        // eslint-disable-next-line react-hooks/exhaustive-deps
         !(localStorage.getItem('language')) && navBarHandleButtonPL()
     }, [isNight]);
 
     useEffect(() => {
-        // eslint-disable-next-line react-hooks/exhaustive-deps
         localStorage.getItem('language') === 'pl' ? navBarHandleButtonPL() : navBarHandleButtonEN()
     }, [isNight]);
+
     return (
         <div className='languages-button-wrapper'>
             <div onClick={() => navBarHandleButtonPL()}>

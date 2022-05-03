@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import soldiersWhite from '../../../assets/soldiers-white.jpg';
 import soldiersBlack from '../../../assets/soldiers-black.jpg';
 

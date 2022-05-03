@@ -1,3 +1,5 @@
+@import '../../../index.scss';
+
 .header-container, .header-container-n {
     width: 100%;
     height: 120px;
@@ -9,17 +11,15 @@
     justify-content: space-between;
     padding: 0 100px;
     transition: all 0.6s;
-    background-color: #fff;
-    z-index: 3789;
-    div {
+    background-color: $white;
+    z-index: 5;
+    .header-buttons-wrapper {
         display: flex;
         align-items: center;
     }
-    .header-logo {
-        height: 60px;
-    }
+  
 }
 
 .header-container-n {
-    background-color: #000;
+    background-color: $black;
 }

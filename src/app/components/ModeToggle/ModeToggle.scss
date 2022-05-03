@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:800i&display=swap');
+@import '../../../index.scss';
+
 #hide-checkbox {
   opacity: 0;
   height: 0;
@@ -11,13 +12,13 @@
   display: inline-block;
   width: 60px;
   height: 30px;
-  background: #000;
+  background: $black;
   border-radius: 50px;
   transition: 500ms;
   overflow: hidden;
   margin-left: 100px;
   margin-right: 50px;
-  border: 1px solid #23b213;
+  border: 1px solid $green;
 }
 
 .toggle-button {
@@ -126,7 +127,7 @@
   display: none;
   }
 #hide-checkbox:checked + .toggle {
-  background: #08C3D5;
+  background: $blue;
 }
 
 #hide-checkbox:checked + .toggle .toggle-button {

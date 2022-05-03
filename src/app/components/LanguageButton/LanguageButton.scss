@@ -1,7 +1,9 @@
+@import '../../../index.scss';
+
 .language-button, .language-button-n {
     border: none;
     text-transform: uppercase;
-    color: #000;
+    color: $black;
     font-weight: bold;
     background-color: transparent;
     cursor: pointer;
@@ -9,5 +11,5 @@
 }
 
 .language-button-n {
-    color: #fff; 
+    color: $white; 
 }
