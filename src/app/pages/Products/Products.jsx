@@ -6,9 +6,13 @@ import './Products.scss';
 import { useTranslation } from 'react-i18next';
 import { SingleProduct } from '../../components/SingleProduct/SingleProduct'
 import { ProductsBase } from '../../base/ProductsBase.jsx';
+import { useLocation } from 'react-router-dom';
+
 
 export const Products = ({ isNight, title, id }) => {
     const { t, i18n } = useTranslation('common');
+    const location = useLocation();
+    console.log(location.hash)
 
     return (
         <>

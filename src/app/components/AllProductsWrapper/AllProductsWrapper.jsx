@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import { Products } from '../../pages/Products/Products';
 import { SubpageHeader } from '../SubpageHeader/SubpageHeader';
 import './AllProductsWrapper.scss';
