@@ -47,13 +47,11 @@
         display: flex;
         align-items: flex-start;
         margin: 10px 0;
-        font-weight: 400px !important;
         font-size: 20px;
       }
         li:before {
               color: #08C3D5;
               content: "\25C8";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-              font-weight: bold; /* If you want it to be bold */
               display: inline-block; /* Needed to add space between the bullet and the text */
               font-size: 30px;
               margin-right: 10px;

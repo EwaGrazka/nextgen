@@ -10,7 +10,7 @@ import instaLogoG from '../../../assets/insta-logo-g.png'
 
 
 export const Footer = ({ isNight }) => {
-    const { t, i18n } = useTranslation('common');
+    const { t } = useTranslation('common');
 
     return (
 
@@ -32,10 +32,10 @@ export const Footer = ({ isNight }) => {
             </div>
             <div>
                 <div className='ico-container'>
-                    <a target='_blank' href='https://www.facebook.com/nextgennightvision' ><img src={isNight ? facebookLogoG : facebookLogo} /></a >
+                    <a rel="noreferrer" target='_blank' href='https://www.facebook.com/nextgennightvision' ><img src={isNight ? facebookLogoG : facebookLogo} alt='facebook icon' /></a >
                 </div>
                 <div className='ico-container'>
-                    <a target='_blank' href='https://www.instagram.com/nnvs_pl/' ><img src={isNight ? instaLogoG : instaLogo} /></a >
+                    <a rel="noreferrer" target='_blank' href='https://www.instagram.com/nnvs_pl/' ><img src={isNight ? instaLogoG : instaLogo} alt='instagram icon' /></a >
                 </div>
             </div>
         </div >
