@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/nextgen/static/css/main.5a1a44ce.css",
+    "main.js": "/nextgen/static/js/main.dd21a535.js",
+    "static/js/787.65b672b1.chunk.js": "/nextgen/static/js/787.65b672b1.chunk.js",
+    "static/media/soldiers-white.jpg": "/nextgen/static/media/soldiers-white.1233bd5525fd1231cb28.jpg",
+    "static/media/soldiers-black.jpg": "/nextgen/static/media/soldiers-black.ca626c057a43bbbc6aed.jpg",
+    "static/media/img-white-1.png": "/nextgen/static/media/img-white-1.094c36bd3689a3d498ce.png",
+    "static/media/img-black.png": "/nextgen/static/media/img-black.b2628bebac6b19b79e15.png",
+    "static/media/img-white.png": "/nextgen/static/media/img-white.42a1fffbb184afbe27ae.png",
+    "static/media/img-black-1.png": "/nextgen/static/media/img-black-1.242e95f1772e537f34f8.png",
+    "static/media/NVG-50-940x740-1.png": "/nextgen/static/media/NVG-50-940x740-1.baf8d0bc3d4074b32f9d.png",
+    "static/media/mapG.png": "/nextgen/static/media/mapG.f2a5c5a7755099080c36.png",
+    "static/media/map.png": "/nextgen/static/media/map.10cced050f1c7844fc44.png",
+    "static/media/bcg-white.jpg": "/nextgen/static/media/bcg-white.d6e4181405fe85ea0489.jpg",
+    "static/media/bcg-green.jpg": "/nextgen/static/media/bcg-green.a8efb02184ba56e988d9.jpg",
+    "static/media/legal.png": "/nextgen/static/media/legal.0ca8b1211b55e4f7f889.png",
+    "static/media/legal-g.png": "/nextgen/static/media/legal-g.8c10e0cfb2ea0421f021.png",
+    "static/media/idea.png": "/nextgen/static/media/idea.ceb7515a2de125bb0000.png",
+    "static/media/glasses.png": "/nextgen/static/media/glasses.18ce75932d6e9fb18985.png",
+    "static/media/idea-g.png": "/nextgen/static/media/idea-g.a9fe533b22ef16165ea7.png",
+    "static/media/glasses-g.png": "/nextgen/static/media/glasses-g.eb1553e0d2560586819a.png",
+    "static/media/truck.png": "/nextgen/static/media/truck.a525f6f344d8e600b9e5.png",
+    "static/media/truck-g.png": "/nextgen/static/media/truck-g.df3f25feb13a82c105f6.png",
+    "index.html": "/nextgen/index.html",
+    "main.5a1a44ce.css.map": "/nextgen/static/css/main.5a1a44ce.css.map",
+    "main.dd21a535.js.map": "/nextgen/static/js/main.dd21a535.js.map",
+    "787.65b672b1.chunk.js.map": "/nextgen/static/js/787.65b672b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1a44ce.css",
+    "static/js/main.dd21a535.js"
+  ]
+}
