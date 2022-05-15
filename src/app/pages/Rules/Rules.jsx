@@ -1,6 +1,6 @@
 import React from 'react';
-import bcgSubpage from '../../../assets/bcg-white.jpg';
-import bcgSubpageG from '../../../assets/bcg-green.jpg';
+// import bcgSubpage from '../../../assets/bcg-white.jpg';
+// import bcgSubpageG from '../../../assets/bcg-green.jpg';
 import './Rules.scss'
 
 export const Rules = ({ isNight }) => {
@@ -8,7 +8,7 @@ export const Rules = ({ isNight }) => {
     return (
         <div className={isNight ? 'products-container-n' : 'products-container'}>
             <div className='subpage-header'>
-                <img className='products-header-img' src={isNight ? bcgSubpageG : bcgSubpage} alt='background' />
+                {/* <img className='products-header-img' src={isNight ? bcgSubpageG : bcgSubpage} alt='background' /> */}
                 <h1>Regulamin</h1>
             </div>
             <div className={isNight ? 'rules-content-n' : 'rules-content'}>

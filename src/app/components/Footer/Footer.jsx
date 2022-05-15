@@ -16,7 +16,7 @@ export const Footer = ({ isNight }) => {
 
         <div className={isNight ? 'footer-container-n' : 'footer-container'} >
             <div>
-                {t("footer.rights")} < a href='https://www.linkedin.com/in/ewa-gr%C4%85zka-789461161/' > egrazka</a >.
+                {t("footer.rights")} < a target="_blank" href='https://www.linkedin.com/in/ewa-gr%C4%85zka-789461161/' > egrazka</a >.
             </div>
             <div>
                 <Link
@@ -28,7 +28,7 @@ export const Footer = ({ isNight }) => {
                     to={{
                         pathname: "/rules",
                     }}
-                >Regulamin</Link>
+                >{t("home.rules")}</Link>
             </div>
             <div>
                 <div className='ico-container'>

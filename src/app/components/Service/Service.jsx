@@ -8,7 +8,7 @@ export const Service = ({ isNight }) => {
 
     return (
         <section>
-            <Title isNight={isNight} title='Serwis' />
+            <Title isNight={isNight} title={t('home.service.service')} />
             <p>{t('home.service.text-1')}</p>
             <p>{t('home.service.text-1a')}</p>
             <ul className={isNight ? 'service-list-n' : 'service-list'}>

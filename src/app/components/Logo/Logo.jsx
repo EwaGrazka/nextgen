@@ -13,7 +13,7 @@ export const Logo = ({ isNight }) => {
 
     return (
 
-        <Link to={{ pathname: "/" }}>
+        <Link to={{ pathname: "/nextgen" }}>
             <img src={isNight ? logoW : logoB} className='header-logo' alt='logo nextgen' />
         </Link>
 

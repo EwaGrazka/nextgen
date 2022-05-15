@@ -1,6 +1,4 @@
 import React from 'react';
-import bcgSubpage from '../../../assets/bcg-white.jpg';
-import bcgSubpageG from '../../../assets/bcg-green.jpg';
 import { useTranslation } from 'react-i18next';
 import './Privacy.scss';
 import { SubpageHeader } from '../../components/SubpageHeader/SubpageHeader';

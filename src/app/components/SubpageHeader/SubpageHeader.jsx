@@ -8,6 +8,7 @@ export const SubpageHeader = ({ isNight, text }) => {
         <div className={isNight ? 'subpage-header-n' : 'subpage-header'}>
             <div className={isNight ? 'background-green' : 'background-blue'}></div>
             <h1>{text}</h1>
+
         </div>
     );
 };

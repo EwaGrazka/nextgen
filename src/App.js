@@ -59,7 +59,7 @@ function App() {
       <ProgressBar isNight={isNight} scrollValue={scrollValue} />
 
       <Routes>
-        <Route path="/" element={<Home isNight={isNight} />} />
+        <Route path="/nextgen" element={<Home isNight={isNight} />} />
         <Route
           path="/products"
           element={<AllProductsWrapper isNight={isNight} />}

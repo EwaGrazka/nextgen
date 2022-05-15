@@ -1,7 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import bcgSubpage from '../../../assets/bcg-white.jpg';
-import bcgSubpageG from '../../../assets/bcg-green.jpg';
 import { Title } from '../../components/Title/Title';
 
 

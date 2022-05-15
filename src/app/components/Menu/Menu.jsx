@@ -16,8 +16,8 @@ function Menu({ isNight }) {
 
                 <li className='menu-link' >
                     <Link
-                        style={{ color: location.pathname === "/" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
-                        to={{ pathname: "/" }}
+                        style={{ color: location.pathname === "/nextgen" ? (isNight ? '#23b213' : '#08C3D5') : '' }}
+                        to={{ pathname: "/nextgen" }}
                     >{t('commons.links.home')}</Link>
                 </li>
 
