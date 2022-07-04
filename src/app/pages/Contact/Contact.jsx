@@ -11,10 +11,10 @@ export const Contact = ({ isNight }) => {
     const { t, i18n } = useTranslation('common');
 
     return (
-        <div className={isNight ? 'contact-container-n' : 'contact-container'}>
+        <div className={isNight ? 'contact-container green' : 'contact-container blue'}>
             <SubpageHeader isNight={isNight} text={t('commons.links.contact')} />
             <div className='contact-content'>
-                <p className='adress-wrapper'>
+                <p className={isNight ? 'adress-wrapper green-border' : 'adress-wrapper blue-border'}>
                     <span>{t('contact.street')}</span>
                     <span>{t('contact.city')}</span>
                     <span>{t('contact.phone')}</span>
