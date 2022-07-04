@@ -1,12 +1,39 @@
-.section-img-text {
-    display: flex;
-    align-items: center;
-    .img-text {
-        text-align: justify;
-    }
-    img {
-        width: 500px;
-        margin: 50px 0;
+
+.nightvision {
+    padding: 0 50px;
+    .section-img-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img-text {
+            text-align: justify;
+        }
+        img {
+            width: 100%;
+            margin: 50px 0;
+        }
     }
 }
 
+@media only screen and (min-width: 1024px){ 
+    
+.nightvision {
+    padding: 0 100px;
+    .section-img-text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .img-text {
+            text-align: justify;
+            padding-left: 100px;
+        }
+        .img-text-reverse {
+            padding-right: 100px;
+        }
+        img {
+            width: 500px;
+            margin: 30px 0;
+        }
+    }
+}
+}

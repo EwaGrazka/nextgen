@@ -1,6 +1,6 @@
 
-h5.title-blue, h5.title-green {
-    font-size: 28px;
+.title {
+    font-size: 24px;
     margin-top: 100px;
     margin-bottom: 30px;
     position: relative;
@@ -10,49 +10,11 @@ h5.title-blue, h5.title-green {
     outline: none;
     font-weight: bold;
     text-transform: uppercase;
-    display: inline-block;
-      &::after,
-     &::before {
-          content: '';
-        display: block;
-        position: absolute;
-        width: 20%;
-        height: 20%;
-        border: 2px solid;
-        transition: all 0.6s ease;
-        border-radius: 2px;
-      }
-        &::after {
-           bottom: 0;
-        right: 0;
-        border-top-color: transparent;
-        border-left-color: transparent;
-        border-bottom-color: #08C3D5;
-        border-right-color: #08C3D5;
-      }
-      &::before {
-          top: 0;
-        left: 0;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        border-top-color: #08C3D5;
-        border-left-color: #08C3D5;
-      }
+    display: inline-block;    
   }
 
 
-  h5.title-green {
-        &::after {
-        border-bottom-color: #23b213;
-        border-right-color: #23b213;
-      }
-      &::before {
-        border-top-color: #23b213;
-        border-left-color: #23b213;
-      }
-  }
-
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     
 h5.title-blue, h5.title-green {
   font-size: 20px;

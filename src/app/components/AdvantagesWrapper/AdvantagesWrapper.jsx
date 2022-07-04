@@ -16,7 +16,7 @@ export const AdvantagesWrapper = ({ isNight }) => {
     const { t, i18n } = useTranslation('common');
 
     return (
-        <div className={isNight ? 'advantages-wrapper-n' : 'advantages-wrapper'}>
+        <div className={isNight ? 'advantages-wrapper green' : 'advantages-wrapper blue'}>
             <Advantage isNight={isNight} ico={isNight ? glassesG : glasses} title={t("home.advantages.title1")} description={t("home.advantages.desc1")} />
             <Advantage isNight={isNight} ico={isNight ? ideaG : idea} title={t("home.advantages.title2")} description={t("home.advantages.desc2")} />
             <Advantage isNight={isNight} ico={isNight ? legalG : legal} title={t("home.advantages.title3")} description={t("home.advantages.desc3")} />

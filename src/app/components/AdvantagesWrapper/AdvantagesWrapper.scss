@@ -1,11 +1,15 @@
-.advantages-wrapper, .advantages-wrapper-n {
+.advantages-wrapper {
     display: flex;
-    justify-content: space-between;
+   flex-direction: column;
     margin: 0 auto;
-    padding: 100px;
-    padding-bottom: 50px;
+   padding: 50px 0;
 }
 
-.advantages-wrapper-n {
-   background-color: #000;
+@media only screen and (min-width: 1024px){ 
+    .advantages-wrapper {
+        display: flex;
+       flex-direction: row;
+        margin: 0 auto;
+       padding: 100px 100px 0;
+    }
 }

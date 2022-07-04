@@ -8,18 +8,18 @@ export const CTA = ({ text, isNight }) => {
 
     return (
 
-        <div className={isNight ? 'section-container cta-container-n' : 'section-container cta-container'}>
-            {text}
+        <div className={isNight ? 'cta-container green' : 'cta-container blue'}>
+            <p className='cta-text'>{text}</p>
             <div className='cta-buttons-wrapper'>
-                <button><Link to={{
+                <button className={isNight ? 'green-border' : 'blue-border'} > <Link className={isNight ? 'green' : 'blue'} to={{
                     pathname: "/contact"
                 }}> {t('home.cta-button-1')}</Link></button>
 
-                <button><Link to={{
+                <button className={isNight ? 'green-border' : 'blue-border'}><Link className={isNight ? 'green' : 'blue'} to={{
                     pathname: "/products"
                 }}>{t('home.cta-button-2')}</Link></button>
             </div>
-        </div>
+        </div >
 
 
     );

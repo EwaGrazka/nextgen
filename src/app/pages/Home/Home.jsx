@@ -10,29 +10,18 @@ import { AdvantagesWrapper } from '../../components/AdvantagesWrapper/Advantages
 import { Title } from '../../components/Title/Title';
 import { useTranslation } from 'react-i18next';
 import { SectionHome } from '../../components/SectionHome/SectionHome';
+import { Header } from '../../components/HomePage/Header/Header';
+import { AboutUs } from '../../components/HomePage/AboutUs/AboutUs';
 
 export const Home = ({ isNight }) => {
     const { t } = useTranslation('common');
 
     return (
         <>
-            <div className='header-wrapper'>
-                <h1 className='header-title'>{t('home.header')}
-                    <span>{t('home.header-a')}</span></h1>
-                <img src={!isNight ? soldiersWhite : soldiersBlack} className='header-bcg' alt='header night vision' />
-            </div>
-            <div className={isNight ? 'content-wrapper-n' : 'content-wrapper'}>
-                <section>
-                    <Title isNight={isNight} title={t('home.meetUs')} />
-                    <div className='about-us'>
-                        <span>{t('home.about')}</span>
-                        <Quote isNight={isNight} />
-                        <span>{t('home.about-1')}</span>
-                    </div>
-                </section>
-                <CTA isNight={isNight} text={t('home.cta-1')} />
-                <Service isNight={isNight} />
-            </div>
+            <Header isNight={isNight} />
+
+            <AboutUs isNight={isNight} />
+
             <SectionHome isNight={isNight}
                 title={t("home.thermovision")}
                 text1={t('home.thermovisionText-a')}

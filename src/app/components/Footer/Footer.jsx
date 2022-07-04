@@ -14,11 +14,11 @@ export const Footer = ({ isNight }) => {
 
     return (
 
-        <div className={isNight ? 'footer-container-n' : 'footer-container'} >
-            <div>
+        <div className={isNight ? 'footer-container green' : 'footer-container blue'} >
+            <div style={{ marginTop: '30px' }}>
                 {t("footer.rights")} < a target="_blank" href='https://www.linkedin.com/in/ewa-gr%C4%85zka-789461161/' > egrazka</a >.
             </div>
-            <div>
+            <div style={{ marginTop: '30px' }}>
                 <Link
                     to={{
                         pathname: "/privacy",
@@ -31,10 +31,10 @@ export const Footer = ({ isNight }) => {
                 >{t("home.rules")}</Link>
             </div>
             <div>
-                <div className='ico-container'>
+                <div className={isNight ? 'green-border ico-container' : 'blue-border ico-container'}>
                     <a rel="noreferrer" target='_blank' href='https://www.facebook.com/nextgennightvision' ><img src={isNight ? facebookLogoG : facebookLogo} alt='facebook icon' /></a >
                 </div>
-                <div className='ico-container'>
+                <div className={isNight ? 'green-border ico-container' : 'blue-border ico-container'}>
                     <a rel="noreferrer" target='_blank' href='https://www.instagram.com/nnvs_pl/' ><img src={isNight ? instaLogoG : instaLogo} alt='instagram icon' /></a >
                 </div>
             </div>

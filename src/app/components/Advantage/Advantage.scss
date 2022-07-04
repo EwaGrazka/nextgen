@@ -1,4 +1,4 @@
-.advantage-container, .advantage-container-n {
+.advantage-container {
     width: 300px;
     height: 250px;
     display: flex;
@@ -10,35 +10,10 @@ padding: 10px;
 border: none;
 background-color: transparent;
 outline: none;
-margin: 0 30px;
+margin: 0 auto;
 font-weight: bold;
 text-transform: uppercase;
-  &::after
- {
-      content: '';
-    display: block;
-    position: absolute;
-    width: 60%;
-    height: 60%;
-    border: 2px solid;
-    transition: all 0.6s ease;
-    border-radius: 2px;
-  }
-    &::after {
-       bottom: 0;
-    right: 0;
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-bottom-color: #08C3D5;
-    border-right-color: #08C3D5;
-  }
-
-
-  &:hover::after
-  {
-       width: 100%;
-    height: 100%;
-  }
+margin-bottom: 50px;
   .icon-wrapper {
 height: 80px;   
 width: 100px; 
@@ -61,18 +36,4 @@ text-align: center;
         font-size: 16px;
         font-weight: normal;
     }
-}
-.advantage-container-n {
-  &::after {
-  border-bottom-color: #23b213;
-  border-right-color: #23b213;
-}
-
-  h6 {
-      color: #fff;
-  }
-  p {
-
-      color: #fff;
-  }
 }

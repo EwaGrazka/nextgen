@@ -1,20 +1,16 @@
-.cta-container, .cta-container-n {
-  height: 380px;
-    background-color: #08C3D5;
-    color: #fff;
+.cta-container {
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 30px;
     font-weight: bold;
-    background-color:#fff;
-    color: #000;
-    border-top: 1px solid #08C3D5;
-    border-bottom: 1px solid #08C3D5;
+.cta-text {
+  padding-top: 100px;
+}
     
     .cta-buttons-wrapper {
-      margin-top: 20px;
       button {
       background-color: transparent;
       font-size: 28px;
@@ -32,33 +28,7 @@
       display: inline-block;
       margin: 50px;
       z-index: 1;
-        &::after,
-       &::before {
-            content: '';
-          display: block;
-          position: absolute;
-          width: 20%;
-          height: 20%;
-          border: 2px solid;
-          transition: all 0.6s ease;
-          border-radius: 2px;
-        }
-          &::after {
-             bottom: 0;
-          right: 0;
-          border-top-color: transparent;
-          border-left-color: transparent;
-          border-bottom-color: #08C3D5;
-          border-right-color: #08C3D5;
-        }
-        &::before {
-            top: 0;
-          left: 0;
-          border-bottom-color: transparent;
-          border-right-color: transparent;
-          border-top-color: #08C3D5;
-          border-left-color: #08C3D5;
-        }
+      
         &:hover::after,
         &:hover::before {
          width: 100%;
@@ -70,39 +40,90 @@
           height: 100%;
           z-index: 16;
           padding: 10px;
-          color: #000;
           text-decoration: none;
           position: relative;
+          background-color: transparent;
         }
     }
   }
-  .cta-container-n {
-    color: #fff;
-    background-color:#000;
-    border-top: 1px solid #23b213;
-    border-bottom: 1px solid #23b213;
-    
-    .cta-buttons-wrapper {
-      button {
-      color: #fff;
-      z-index: 1;
 
-          &::after {
 
-          border-bottom-color: #23b213;
-          border-right-color: #23b213;
+
+  @media only screen and (min-width: 1024px){ 
+    .cta-container {
+      height: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 30px;
+        font-weight: bold;
+        
+        .cta-buttons-wrapper {
+          margin-top: 20px;
+          button {
+          background-color: transparent;
+          font-size: 28px;
+          margin-top: 100px;
+          margin-bottom: 30px;
+          position: relative;
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+          padding: 10px;
+          outline: none;
+          font-weight: bold;
+          text-transform: uppercase;
+          display: inline-block;
+          margin: 50px;
+          z-index: 1;
+           
+            
+         
+            &:hover::after,
+            &:hover::before {
+             width: 100%;
+              height: 100%;
+            }
+            }
+            a {
+              width: 100%;
+              height: 100%;
+              z-index: 16;
+              padding: 10px;
+              text-decoration: none;
+              position: relative;
+            }
         }
-        &::before {
-
-          border-top-color: #23b213;
-          border-left-color: #23b213;
-        }
- 
-        }
-        a {
-
+      }
+      .cta-container-n {
+        color: #fff;
+        background-color:#000;
+        border-top: 1px solid #23b213;
+        border-bottom: 1px solid #23b213;
+        
+        .cta-buttons-wrapper {
+          button {
           color: #fff;
-
+          z-index: 1;
+    
+              &::after {
+    
+              border-bottom-color: #23b213;
+              border-right-color: #23b213;
+            }
+            &::before {
+    
+              border-top-color: #23b213;
+              border-left-color: #23b213;
+            }
+     
+            }
+            a {
+    
+              color: #fff;
+    
+            }
         }
-    }
+      }
   }

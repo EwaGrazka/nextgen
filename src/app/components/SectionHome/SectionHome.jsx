@@ -9,15 +9,15 @@ import imgB1 from '../../../assets/img-black-1.png'
 export const SectionHome = ({ isNight, title, text1, reverse, textIMG, text2 }) => {
 
     return (
-        <section className={isNight ? 'nightvision-n' : 'nightvision'}>
+        <section className={isNight ? 'nightvision green' : 'nightvision blue'}>
             <Title isNight={isNight} title={title} />
             <p>{text1}</p>
             <div className='section-img-text'>
                 {!reverse && <img src={isNight ? imgB : imgW} alt='night vision' />}
 
                 <p
-                    className='img-text'
-                    style={!reverse ? { marginLeft: '50px' } : { marginRight: '50px' }}>
+                    className={!reverse ? 'img-text' : 'img-text-reverse'}
+                >
                     {textIMG}
                 </p>
                 {reverse && <img src={isNight ? imgB1 : imgW1} alt='night vision' />}

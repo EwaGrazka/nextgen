@@ -11,10 +11,10 @@ export const Service = ({ isNight }) => {
             <Title isNight={isNight} title={t('home.service.service')} />
             <p>{t('home.service.text-1')}</p>
             <p>{t('home.service.text-1a')}</p>
-            <ul className={isNight ? 'service-list-n' : 'service-list'}>
-                <li><span>- </span>{t('home.service.list-a')}</li>
-                <li><span>- </span>{t('home.service.list-b')}</li>
-                <li><span>- </span>{t('home.service.list-c')}</li>
+            <ul className={isNight ? 'service-list green' : 'service-list blue'}>
+                <li><span className='point'>- </span>{t('home.service.list-a')}</li>
+                <li><span className='point'>- </span>{t('home.service.list-b')}</li>
+                <li><span className='point'>- </span>{t('home.service.list-c')}</li>
             </ul>
             <p className='service-p'> {t('home.service.text-2')}
             </p>
