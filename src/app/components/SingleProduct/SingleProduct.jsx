@@ -11,8 +11,7 @@ export const SingleProduct = ({ isNight, productIMG, price, title, id }) => {
             <Link to={{
                 pathname: `/product${id}`
             }}>  <img className='product-img' src={productIMG} alt='product' />
-                <h8 className='product-title green
-                '>{title} <span >{price}</span></h8>
+                <h8 className={isNight ? 'product-title green' : 'product-title-blue'}>{title} <span >{price}</span></h8>
             </Link>
 
         </div>
