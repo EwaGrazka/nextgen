@@ -32,8 +32,10 @@ function Menu({ isNight }) {
                         </Link>
                     </li>
 
-                    <div className={isNight ? 'category-menu category-menu-n' : 'category-menu'}>
-                        <ul className={isNight ? 'menu-hover-n' : 'menu-hover'}>
+
+
+                    {/* <div className={isNight ? 'category-menu category-menu-n' : 'category-menu'}> */}
+                    {/* <ul className={isNight ? 'menu-hover-n' : 'menu-hover'}>
 
                             <li>
                                 <Link to={{
@@ -56,8 +58,8 @@ function Menu({ isNight }) {
                                 </Link>
                             </li>
 
-                        </ul>
-                    </div>
+                        </ul> */}
+                    {/* </div> */}
 
                 </div>
 

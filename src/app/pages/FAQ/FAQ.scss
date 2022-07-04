@@ -1,21 +1,18 @@
-.faq-container, .faq-container-n {
+.faq-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    padding-bottom: 50px;
 
     .faq-content {
-        padding: 0 100px;
+        padding: 0 50px;
     }
 }
 
-.faq-container-n {
-  background-color: #000;
-  margin-bottom: 0;
-  
-    .faq-content {
-        padding: 0 100px;
-        color: #fff;
-        padding-bottom: 100px;
+@media only screen and (min-width: 1024px) {
+    .faq-container {   
+        .faq-content {
+            padding: 0 100px;
+        }
     }
 }
 

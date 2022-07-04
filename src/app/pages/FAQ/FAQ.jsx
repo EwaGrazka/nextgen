@@ -11,7 +11,7 @@ export const FAQ = ({ isNight }) => {
     const { t, i18n } = useTranslation('common');
 
     return (
-        <div className={isNight ? 'faq-container-n' : 'faq-container'}>
+        <div className={isNight ? 'faq-container green' : 'faq-container blue'}>
             <SubpageHeader isNight={isNight} text='FAQ' />
 
             <div className='faq-content'>
