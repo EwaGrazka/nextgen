@@ -23,7 +23,7 @@ export const ProductPage = ({ isNight }) => {
     return (
         <div className={isNight ? 'products-container green' : 'products-container blue'}>
             <SubpageHeader text={chosenProduct.title} isNight={isNight} />
-            <div style={{ padding: '0 100px' }} className={isNight ? 'content-wrapper green' : 'content-wrapper blue'}>
+            <div className={isNight ? 'content-wrapper green' : 'content-wrapper blue'}>
                 <Title isNight={isNight} title={chosenProduct.lead} />
 
                 <div className={isNight ? 'product-main-container-n' : 'product-main-container'}>
