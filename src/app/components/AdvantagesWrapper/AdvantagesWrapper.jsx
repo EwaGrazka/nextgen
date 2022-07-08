@@ -12,17 +12,23 @@ import noctoG from '../../../assets/icons/nocto-g.png'
 import { t } from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { ServicesOption } from '../ServicesOption/ServicesOption';
+import { Title } from '../Title/Title';
 
 
 export const AdvantagesWrapper = ({ isNight }) => {
     const { t, i18n } = useTranslation('common');
 
     return (
-        <div className={isNight ? 'advantages-wrapper green' : 'advantages-wrapper blue'}>
-            <ServicesOption serviceIMG={isNight ? helpG : helpB} serviceName={t("home.advantages.title1")} />
-            <ServicesOption serviceIMG={isNight ? noctoG : noctoB} serviceName={t("home.advantages.title2")} />
-            <ServicesOption serviceIMG={isNight ? lawG : lawB} serviceName={t("home.advantages.title3")} />
-            <ServicesOption serviceIMG={isNight ? deliveryG : deliveryB} serviceName={t("home.advantages.title4")} />
-        </div>
+        <section className={isNight ? 'advantages-container green' : 'advantages-container blue'}>
+            <Title isNight={isNight} title={t('Dlaczego Nextgen?')} />
+            <div className={isNight ? 'advantages-wrapper green' : 'advantages-wrapper blue'}>
+
+                <ServicesOption serviceIMG={isNight ? helpG : helpB} serviceName={t("home.advantages.title1")} />
+                <ServicesOption serviceIMG={isNight ? noctoG : noctoB} serviceName={t("home.advantages.title2")} />
+                <ServicesOption serviceIMG={isNight ? lawG : lawB} serviceName={t("home.advantages.title3")} />
+                <ServicesOption serviceIMG={isNight ? deliveryG : deliveryB} serviceName={t("home.advantages.title4")} />
+            </div>
+        </section>
+
     );
 };

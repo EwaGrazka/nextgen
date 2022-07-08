@@ -5,27 +5,36 @@ import imgW from '../../../assets/img-white.png'
 import imgW1 from '../../../assets/img-white-1.png'
 import imgB from '../../../assets/img-black.png'
 import imgB1 from '../../../assets/img-black-1.png'
+import { TextSection } from '../TextSection/TextSection';
+import { useTranslation } from 'react-i18next';
 
-export const SectionHome = ({ isNight, title, text1, reverse, textIMG, text2 }) => {
+export const SectionHome = ({ section, isNight, title }) => {
+
+    const { t } = useTranslation('common');
+
 
     return (
-        <section className={isNight ? 'nightvision green' : 'nightvision blue'}>
-            <Title isNight={isNight} title={title} />
-            <p>{text1}</p>
-            <div className='section-img-text'>
-                {!reverse && <img src={isNight ? imgB : imgW} alt='night vision' />}
-
-                <p
-                    className={!reverse ? 'img-text' : 'img-text-reverse'}
-                >
-                    {textIMG}
-                </p>
-                {reverse && <img src={isNight ? imgB1 : imgW1} alt='night vision' />}
-            </div>
-
-            <p>
-                {text2}
-            </p>
-        </section>
+        <>
+            {section === 'thermovision' &&
+                <section
+                    className={isNight ? 'nightvision green' : 'nightvision blue'}>
+                    <Title isNight={isNight} title={title} />
+                    <TextSection
+                        title1={t('home.thermovisionText-a-bold')}
+                        text1={t('home.thermovisionText-a')}
+                        title2={t('home.thermovisionText-b-bold')}
+                        text2={t('home.thermovisionText-b')} />
+                </section>
+            }
+            {section === 'nightvision' &&
+                <section style={{ paddingBottom: '50px' }} className={isNight ? 'nightvision green' : 'nightvision blue'}>
+                    <Title isNight={isNight} title={title} />
+                    <TextSection title1={t('home.nightvisionText-a-bold')}
+                        text1={t('home.nightvisionText-a')}
+                        title2={t('home.nightvisionText-b-bold')}
+                        text2={t('home.nightvisionText-b')} />
+                </section>
+            }
+        </>
     );
 };

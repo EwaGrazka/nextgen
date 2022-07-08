@@ -24,20 +24,15 @@ export const Home = ({ isNight }) => {
 
             <SectionHome isNight={isNight}
                 title={t("home.thermovision")}
-                text1={t('home.thermovisionText-a')}
-                text2={t('home.thermovisionText-b')}
-                textIMG={t('home.thermovisionText-c')}
-                reverse={false} />
+                section='thermovision' />
 
             <AdvantagesWrapper isNight={isNight} />
 
             <SectionHome
-                reverse={true}
                 isNight={isNight}
                 title={t("home.nightvision")}
-                text1={t("home.nightvisionText-a")}
-                textIMG={t("home.nightvisionText-b")}
-                text2={t("home.nightvisionText-c")} />
+                section='nightvision' />
+            <p className={isNight ? 'green closure' : 'blue closure'}>NextGen tworzą ludzie z pasją, którzy chętnie zrozumieją Twoje potrzeby, przeprowadzą Cię przez cały proces doboru urządzenia i zaproponują optymalne rozwiązanie cenowe. Wyjaśnimy różnice w parametrach technicznych i uczciwie opowiemy o zaletach i ograniczeniach z nich wynikających. Nie ma rozwiązań uniwersalnych, nadających się dla wszystkich, dlatego dbając o świadome decyzje naszych Klientów zachęcamy do testów porównawczych wybranych rozwiązań.</p>
         </>
 
     );
