@@ -1,0 +1,36 @@
+.services-option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    .services-icon {
+        width: 100px;
+    }
+    .services-name {
+        text-transform: uppercase;
+        font-size: 280x;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 1024px){ 
+    .services-option-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        .services-icon {
+            width: 80px;
+        }
+        .services-name {
+            text-transform: uppercase;
+            font-size: 280x;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+}

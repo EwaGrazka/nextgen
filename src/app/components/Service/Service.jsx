@@ -3,21 +3,32 @@ import { useTranslation } from 'react-i18next';
 import { Title } from '../Title/Title';
 import './Service.scss'
 
+import glassesG from '../../../assets/icons/glasses-g.png'
+import glassesB from '../../../assets/icons/glasses-b.png'
+import broomG from '../../../assets/icons/broom-g.png'
+import broomB from '../../../assets/icons/broom-b.png'
+import checklistG from '../../../assets/icons/checklist-g.png'
+import checklistB from '../../../assets/icons/checklist-b.png'
+import fixG from '../../../assets/icons/fix-g.png'
+import fixB from '../../../assets/icons/fix-b.png'
+
+
+import { ServicesOption } from '../ServicesOption/ServicesOption';
+
 export const Service = ({ isNight }) => {
     const { t, i18n } = useTranslation('common');
 
     return (
         <section>
             <Title isNight={isNight} title={t('home.service.service')} />
-            <p>{t('home.service.text-1')}</p>
-            <p>{t('home.service.text-1a')}</p>
-            <ul className={isNight ? 'service-list green' : 'service-list blue'}>
-                <li><span className='point'>- </span>{t('home.service.list-a')}</li>
-                <li><span className='point'>- </span>{t('home.service.list-b')}</li>
-                <li><span className='point'>- </span>{t('home.service.list-c')}</li>
-            </ul>
-            <p className='service-p'> {t('home.service.text-2')}
-            </p>
-        </section>
+            <p>{t('home.service.text-1')} <span className={'point bold'}>{t('home.service.text-1a')}</span></p>
+            <div className='services-options-wrapper'>
+                <ServicesOption serviceIMG={isNight ? fixG : fixB} serviceName={'Naprawy'} />
+                <ServicesOption serviceIMG={isNight ? glassesG : glassesB} serviceName={'Modyfikacje konstrukcyjne'} />
+                <ServicesOption serviceIMG={isNight ? checklistG : checklistB} serviceName={'Przeglądy okresowe'} />
+                <ServicesOption serviceIMG={isNight ? broomG : broomB} serviceName={'Czyszczenie sprzętu'} />
+            </div>
+
+        </section >
     );
 };

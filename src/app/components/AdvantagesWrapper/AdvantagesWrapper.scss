@@ -8,6 +8,7 @@
 @media only screen and (min-width: 1024px){ 
     .advantages-wrapper {
         display: flex;
+        justify-content: space-evenly;
        flex-direction: row;
         margin: 0 auto;
        padding: 100px 100px 0;

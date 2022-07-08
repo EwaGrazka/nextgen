@@ -26,12 +26,8 @@
         "cta-button-2": "See our products",
         "service": {
             "service": "Service",
-            "text-1": "We provide a full service of night vision devices of many types, including repairs, construction modifications, periodic inspections and cleaning of the equipment.",
-            "text-1a": "Supported night vision transducers:",
-            "text-2": "We sell a wide selection of night vision transducers, in many different formats, which can be optionally equipped with autogating functions and green or white phosphorus.",
-            "list-a": "Gen 2+",
-            "list-b": "Gen 3",
-            "list-c": "4G"
+            "text-1": "We provide a full service of night vision devices of types",
+            "text-1a": "Gen 2+, Gen 3, 4G"
         },
         "accesories": "Accesories",
         "thermovision": "Thermovision",

@@ -14,7 +14,7 @@ export const Footer = ({ isNight }) => {
 
     return (
 
-        <div className={isNight ? 'footer-container green' : 'footer-container blue'} >
+        <div className={isNight ? 'footer-container green cta-border-green' : 'footer-container blue cta-border-blue'} >
             <div style={{ marginTop: '30px' }}>
                 {t("footer.rights")} < a target="_blank" href='https://www.linkedin.com/in/ewa-gr%C4%85zka-789461161/' > egrazka</a >.
             </div>

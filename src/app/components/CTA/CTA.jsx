@@ -8,7 +8,7 @@ export const CTA = ({ text, isNight }) => {
 
     return (
 
-        <div className={isNight ? 'cta-container green' : 'cta-container blue'}>
+        <div className={isNight ? 'cta-container green cta-border-green' : 'cta-container blue cta-border-blue'}>
             <p className='cta-text'>{text}</p>
             <div className='cta-buttons-wrapper'>
                 <button className={isNight ? 'green-border' : 'blue-border'} > <Link className={isNight ? 'green' : 'blue'} to={{

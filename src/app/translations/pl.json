@@ -26,12 +26,8 @@
         "cta-button-2": "Zapoznaj się z produktami",
         "service": {
             "service": "Serwis",
-            "text-1": "Prowadzimy pełen serwis urządzeń noktowizyjnych wielu typów obejmujący naprawy, modyfikacje konstrukcyjne, przeglądy okresowe oraz czyszczenie sprzętu.",
-            "text-1a": "Obsługiwane przetworniki noktowizyjne:",
-            "text-2": "W sprzedaży posiadamy szeroki wybór przetworników noktowizyjnych, w wielu różnych formatach, które mogą być opcjonalnie zaopatrzone w funkcje autogatingu oraz zielony lub biały fosfor.",
-            "list-a": "Gen 2+",
-            "list-b": "Gen 3",
-            "list-c": "4G"
+            "text-1": "Prowadzimy pełen serwis urządzeń noktowizyjnych typu",
+            "text-1a": "Gen 2+, Gen 3, 4G"
         },
         "accesories": "Akcesoria",
         "thermovision": "Termowizja",
