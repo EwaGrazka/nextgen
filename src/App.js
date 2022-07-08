@@ -10,11 +10,13 @@ import { Rules } from "./app/pages/Rules/Rules";
 import { AllProductsWrapper } from "./app/components/AllProductsWrapper/AllProductsWrapper";
 import { ProductPage } from "./app/components/ProductPage/ProductPage";
 import { ProgressBar } from "./app/components/ProgressBar/ProgressBar";
+import MenuMobile from "./app/components/MenuMobile/MenuMobile";
 
 function App() {
   const [isNight, setIsNight] = useState(true);
   const [y, setY] = useState(window.scrollY);
   const [isScroll, setIsScroll] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleNavigation = useCallback(
     (e) => {
@@ -54,7 +56,14 @@ function App() {
 
   return (
     <div className="scroller">
-      <Header isNight={isNight} setIsNight={setIsNight} isScroll={isScroll} />
+      <Header
+        isMenuOpen={isMenuOpen}
+        setIsMenuOpen={setIsMenuOpen}
+        isNight={isNight}
+        setIsNight={setIsNight}
+        isScroll={isScroll}
+      />
+      {isMenuOpen && <MenuMobile isNight={isNight} />}
 
       <ProgressBar isNight={isNight} scrollValue={scrollValue} />
 

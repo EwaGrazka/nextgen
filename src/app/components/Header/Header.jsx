@@ -3,8 +3,9 @@ import Menu from "../Menu/Menu";
 import { LanguageToggle } from "../LanguageToggle/LanguageToggle";
 import { ModeToggle } from "../ModeToggle/ModeToggle";
 import { Logo } from "../Logo/Logo";
+import MenuButtonMobile from "../MenuButtonMobile/MenuButtonMobile";
 
-function Header({ isNight, setIsNight, isScroll }) {
+function Header({ isNight, setIsNight, isScroll, isMenuOpen, setIsMenuOpen }) {
 
     return (
         <div style={{
@@ -19,6 +20,8 @@ function Header({ isNight, setIsNight, isScroll }) {
                 <ModeToggle isNight={isNight} setIsNight={setIsNight} />
                 <LanguageToggle isNight={isNight} />
             </div>
+            <MenuButtonMobile isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} isNight={isNight} />
+
 
         </ div>
     )

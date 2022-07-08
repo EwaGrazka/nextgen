@@ -1,13 +1,8 @@
 import React from 'react';
-import soldiersWhite from '../../../assets/soldiers-white.jpg';
-import soldiersBlack from '../../../assets/soldiers-black.jpg';
 
 import './Home.scss'
-import { CTA } from '../../components/CTA/CTA';
-import { Quote } from '../../components/Quote/Quote';
-import { Service } from '../../components/Service/Service';
+
 import { AdvantagesWrapper } from '../../components/AdvantagesWrapper/AdvantagesWrapper';
-import { Title } from '../../components/Title/Title';
 import { useTranslation } from 'react-i18next';
 import { SectionHome } from '../../components/SectionHome/SectionHome';
 import { Header } from '../../components/HomePage/Header/Header';

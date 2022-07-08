@@ -178,3 +178,13 @@
     transform: translateX(0px);
   }
 }
+
+
+
+@media only screen and (max-width: 1023px){ 
+
+.toggle {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}

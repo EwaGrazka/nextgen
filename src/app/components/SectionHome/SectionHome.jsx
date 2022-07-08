@@ -1,10 +1,6 @@
 import React from 'react';
 import './SectionHome.scss';
 import { Title } from '../Title/Title';
-import imgW from '../../../assets/img-white.png'
-import imgW1 from '../../../assets/img-white-1.png'
-import imgB from '../../../assets/img-black.png'
-import imgB1 from '../../../assets/img-black-1.png'
 import { TextSection } from '../TextSection/TextSection';
 import { useTranslation } from 'react-i18next';
 
