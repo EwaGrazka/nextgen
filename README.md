@@ -19,6 +19,7 @@ Aby dodać produkt do bazy należy:
 
 - Strona zawiera wersję mobile i desktop, tryby dzień/noc, dwie wersje językowe oraz poziomy scrollbar.
 - Obecnie strona nie zawiera kompletnego Regulaminu, ponieważ ten otrzymany dotyczył sklepu internetowego. Pozostawiono kilka punktów jako możliwy przykład realizacji tej sekcji.
+- Tłumaczenie z translatora - konieczna korekta.
 
 # Getting Started with Create React App
 
