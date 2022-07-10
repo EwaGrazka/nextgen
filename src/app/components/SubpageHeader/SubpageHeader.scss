@@ -8,11 +8,12 @@
           color: #000;
           position: absolute;
           margin-top: 120px;
-          font-size: 60px;
+          font-size: 40px;
           text-transform: uppercase;
           z-index: 0;
           border-radius: 2rem;
           padding: 0.4em;
+          text-align: center;
         }
     .background-green {
       width: 100%;
@@ -44,4 +45,15 @@
   h1 {
     color: #fff;
   }
+}
+
+
+
+@media only screen and (min-width: 1024px){ 
+  .subpage-header, .subpage-header-n {
+    h1 {
+          font-size: 60px;
+        }
+
+}
 }

@@ -1,5 +1,5 @@
 .privacy-content, .privacy-content-n {
-    padding: 100px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -77,4 +77,12 @@
           }
       }
     
+}
+
+
+@media only screen and (min-width: 1024px){ 
+  .privacy-content, .privacy-content-n {
+    padding: 100px;
+
+      } 
 }

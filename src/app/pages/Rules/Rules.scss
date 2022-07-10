@@ -1,5 +1,5 @@
 .rules-content, .rules-content-n {
-    padding: 100px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -74,4 +74,11 @@ color: #fff;
       border-left-color: #23b213;
     }
 }
+}
+
+
+@media only screen and (min-width: 1024px){ 
+  .rules-content, .rules-content-n {
+    padding: 100px;
+  }
 }
