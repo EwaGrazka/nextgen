@@ -23,10 +23,10 @@ export const Service = ({ isNight }) => {
             <Title isNight={isNight} title={t('home.service.service')} />
             <p>{t('home.service.text-1')} <span className={'point bold'}>{t('home.service.text-1a')}</span></p>
             <div className='services-options-wrapper'>
-                <ServicesOption serviceIMG={isNight ? fixG : fixB} serviceName={'Naprawy'} />
-                <ServicesOption serviceIMG={isNight ? glassesG : glassesB} serviceName={'Modyfikacje konstrukcyjne'} />
-                <ServicesOption serviceIMG={isNight ? checklistG : checklistB} serviceName={'Przeglądy okresowe'} />
-                <ServicesOption serviceIMG={isNight ? broomG : broomB} serviceName={'Czyszczenie sprzętu'} />
+                <ServicesOption serviceIMG={isNight ? fixG : fixB} serviceName={t('home.service.fix')} />
+                <ServicesOption serviceIMG={isNight ? glassesG : glassesB} serviceName={t('home.service.modify')} />
+                <ServicesOption serviceIMG={isNight ? checklistG : checklistB} serviceName={t('home.service.overview')} />
+                <ServicesOption serviceIMG={isNight ? broomG : broomB} serviceName={t('home.service.cleaning')} />
             </div>
 
         </section >

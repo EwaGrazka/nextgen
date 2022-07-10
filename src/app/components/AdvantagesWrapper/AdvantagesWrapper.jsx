@@ -18,7 +18,7 @@ export const AdvantagesWrapper = ({ isNight }) => {
 
     return (
         <section className={isNight ? 'advantages-container green' : 'advantages-container blue'}>
-            <Title isNight={isNight} title={t('Dlaczego Nextgen?')} />
+            <Title isNight={isNight} title={t("home.advantages.why-us")} />
             <div className={isNight ? 'advantages-wrapper green' : 'advantages-wrapper blue'}>
 
                 <ServicesOption serviceIMG={isNight ? helpG : helpB} serviceName={t("home.advantages.title1")} />

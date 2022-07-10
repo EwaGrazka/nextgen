@@ -27,7 +27,7 @@ export const Home = ({ isNight }) => {
                 isNight={isNight}
                 title={t("home.nightvision")}
                 section='nightvision' />
-            <p className={isNight ? 'green closure' : 'blue closure'}>NextGen tworzą ludzie z pasją, którzy chętnie zrozumieją Twoje potrzeby, przeprowadzą Cię przez cały proces doboru urządzenia i zaproponują optymalne rozwiązanie cenowe. Wyjaśnimy różnice w parametrach technicznych i uczciwie opowiemy o zaletach i ograniczeniach z nich wynikających. Nie ma rozwiązań uniwersalnych, nadających się dla wszystkich, dlatego dbając o świadome decyzje naszych Klientów zachęcamy do testów porównawczych wybranych rozwiązań.</p>
+            <p className={isNight ? 'green closure' : 'blue closure'}>{t("home.closure")}</p>
         </>
 
     );

@@ -27,7 +27,11 @@
         "service": {
             "service": "Serwis",
             "text-1": "Prowadzimy pełen serwis urządzeń noktowizyjnych typu",
-            "text-1a": "Gen 2+, Gen 3, 4G"
+            "text-1a": "Gen 2+, Gen 3, 4G",
+            "fix": "Naprawy",
+            "modify": "Modyfikacje konstrukcyjne",
+            "overview": "Przeglądy okresowe",
+            "cleaning": "Czyszczenie sprzętu"
         },
         "accesories": "Akcesoria",
         "thermovision": "Termowizja",
@@ -46,6 +50,7 @@
         "nightvisionText-b": "Początkowo duże, niewygodne (np. plecakowe) i wymagające dużej ilości energii elektrycznej (silne doświetlacze żarówkowe z filtrami IR) urządzenia, ewoluowały by obecnie osiągnąć kompaktowe (350gram) rozmiary, z czasem pracy na jednej baterii ponad 40h. ",
         "nightvisionText-b-bold": "Postęp techniczny w technice noktowizyjnej jest ogromny i dotyczy nie tylko samych wzmacniaczy światła, ale również elektroniki ich zasilającej, dostępnej jasnej optyki, lekkich materiałów konstrukcyjnych a także ergonomii oraz precyzji wykonania.",
         "advantages": {
+            "why-us": "Dlaczego my?",
             "title1": "Fachowa pomoc",
             "desc1": "Doświadczeni pracownicy służący radą.",
             "title2": "Profesjonalny sprzęt",
@@ -56,7 +61,8 @@
             "desc4": "Towar wysyłamy firmą kurierską."
         },
         "meetUs": "Poznaj nas",
-        "rules": "Regulamin"
+        "rules": "Regulamin",
+        "closure": "NextGen tworzą ludzie z pasją, którzy chętnie zrozumieją Twoje potrzeby, przeprowadzą Cię przez cały proces doboru urządzenia i zaproponują optymalne rozwiązanie cenowe. Wyjaśnimy różnice w parametrach technicznych i uczciwie opowiemy o zaletach i ograniczeniach z nich wynikających. Nie ma rozwiązań uniwersalnych, nadających się dla wszystkich, dlatego dbając o świadome decyzje naszych Klientów zachęcamy do testów porównawczych wybranych rozwiązań."
     },
 
     "contact": {
